@@ -32,7 +32,3 @@
 	@import '../styles/preview.scss';
     
 </style>
-
-
-
-
