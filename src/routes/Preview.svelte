@@ -18,9 +18,9 @@
 					<img src="assets/img/picture3.png" alt="3" />
 					<img src="assets/img/picture4.png" alt="4" />
                     <img src="assets/img/picture5.png" alt="5" />
-					<img src="assets/img/picture6.JPG" alt="6" />
-					<img src="assets/img/picture7.JPG" alt="7" />
-                    <img src="assets/img/picture8.JPG" alt="8" />
+					<img src="assets/img/picture6.jpg" alt="6" />
+					<img src="assets/img/picture7.jpg" alt="7" />
+                    <img src="assets/img/picture8.jpg" alt="8" />
                     <img src="assets/img/picture9.png" alt="9" />
 			</div>
 			<div style="grid-area: 🟩;" id="Clear"></div>
