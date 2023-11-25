@@ -1,0 +1,55 @@
+div.About {
+    display: grid;
+    grid-template-areas: '🟥 🟦';
+    grid-template-columns: 50% 50%;
+    height: 700px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: 200;
+    margin-top: 50px;
+}
+
+div.Title {
+    display: grid;
+    grid-template-areas: '🟦 🟧 🟨';
+    grid-template-columns:569px 374px 569px;
+    grid-template-rows: 200px;
+    place-items: center;
+
+}
+
+#Title {
+    font-size: 130px;
+    font-weight: 500;
+    margin: 0px;
+}
+
+#addon1 img {
+    margin-left: 350px ;
+  }
+  
+  #addon2 img {
+      margin-right: 350px ;
+    }
+  
+
+.picture {
+    width: 569px;
+    height: 564px;
+    border-radius: 20px;
+}
+
+.who {
+    font-size: 80px;
+    font-weight: 600;
+}
+
+.text-1 {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.text-2 {
+    font-size: 25px;
+    font-weight: 400;
+}

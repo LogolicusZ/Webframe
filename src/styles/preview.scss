@@ -1,0 +1,56 @@
+div.Image-slider {
+    display: grid;
+    grid-template-areas: '🟦 🟧 🟨'
+                         '🟪 🟥 🟩';
+    grid-template-columns:357.5px 797px 357.5px;
+    grid-template-rows: 300px 0px;
+    place-items: center;
+
+}
+
+#addon1 img {
+  margin-left: 250px ;
+}
+
+#addon2 img {
+    margin-right: 250px ;
+  }
+
+
+#Title {
+    font-size: 130px;
+    font-weight: 500;
+    margin: 0;
+}
+
+div.scroll-container {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+    padding: 10px;
+  
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+  }
+  
+  div.scroll-container img {
+    padding: 10px;
+    height: 500px;
+    width: 400px;
+    border-radius: 25px;
+    scroll-snap-align: center;
+    scroll-snap-align: center;
+    transition: transform 1s ease;
+    flex: 0 0 auto;
+  }
+
+
+ 
+   
+
+
+  
+  
+   

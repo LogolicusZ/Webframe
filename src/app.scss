@@ -1,0 +1,54 @@
+@import url('https://fonts.cdnfonts.com/css/general-sans?styles=135312,135307,135305,135306,135308,135309,135310,135311,135313,135314,135303,135304');
+
+/* general style */
+html,
+body,
+main {
+    font-family: 'General Sans', sans-serif;
+    margin: 0;
+    color: #181816;
+    background-color: #F4F1EB;
+    margin-bottom: 0px;
+    scroll-behavior: smooth;
+}
+
+div.nav {
+    display: grid;
+    grid-template-areas: '🟥 🟩 🟪 🟦';
+    grid-template-columns: 200px auto 100px 164px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border-bottom: 1px;
+    border-bottom-color: #181816;
+    border-bottom-style: solid;
+}
+
+#whitespace {
+    background-color: transparent;
+}
+
+.about {
+    background-color: transparent;
+    font-size: 30px;
+    border-color: transparent;
+    margin-top: 15px;
+    font-family: 'General Sans', sans-serif;
+    font-weight: 200;
+}
+
+.gallery {
+    background-color: #4F3BB5;
+    font-size: 30px;
+    border-color: transparent;
+    border-radius: 25px;
+    color: #F4F1EB;
+    width: 164px;
+    margin-top: 15px;
+    font-weight: 200;
+    font-family: 'General Sans', sans-serif;
+}
+
+.logo {
+    width: 80px;
+    height: 80px;
+}
