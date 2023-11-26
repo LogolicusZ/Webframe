@@ -23,6 +23,7 @@
                     <img src="assets/img/picture8.jpg" alt="8" />
                     <img src="assets/img/picture9.png" alt="9" />
 			</div>
+			
 			<div style="grid-area: 🟩;" id="Clear"></div>
 
 </body>

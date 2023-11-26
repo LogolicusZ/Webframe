@@ -46,7 +46,10 @@ div.scroll-container {
     flex: 0 0 auto;
   }
 
-
+/* hide scroll bar */
+.list::-webkit-scrollbar {
+  display: none;
+}
  
    
 
