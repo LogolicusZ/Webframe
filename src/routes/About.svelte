@@ -1,5 +1,4 @@
-<body>
-
+<div id="about">
         <div>
             <div class="Title">
                 <div style="grid-area: 🟦;" id="addon1">
@@ -23,7 +22,7 @@
                 </div>
             </div>
         </div> 
-</body>
+    </div>
 
 <style lang="scss">
     @import '../app.scss';

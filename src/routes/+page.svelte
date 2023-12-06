@@ -6,10 +6,10 @@
 </script>
 
 <div class="container">
-	<Home  />
-	<Text  />
-	<About  />
-	<Preview  />
+	<Home />
+	<Text />
+	<About />
+	<Preview />
 </div>
 
 <style lang="scss">

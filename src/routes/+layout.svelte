@@ -6,7 +6,7 @@
 
 <div class="nav">
     <div style="grid-area: 🟥;">
-            <a href="./">
+            <a href="/">
             <img class="logo" src="assets/navbarlogo.png" alt="LogolicusZ Logo" />
             </a>
     </div>
@@ -14,11 +14,13 @@
     <div style="grid-area: 🟩;" id="whitespace"></div>
 
     <div style="grid-area: 🟪;" id="About">
-        <button class="about">About</button>
+        <a href="/#about">
+            <button class="about">About</button>
+        </a>
     </div>
     <div style="grid-area: 🟦;" id="Gallery">
-        <a href="Galleryroutes/Gallery.svelte">
-        <button class="gallery">Gallery</button>
+        <a href="/gallery">
+            <button class="gallery">Gallery</button>
         </a>
     </div>
 </div>
