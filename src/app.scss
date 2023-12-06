@@ -19,7 +19,7 @@ main {
 div.nav {
     display: grid;
     grid-template-areas: '🟥 🟩 🟪 🟦';
-    grid-template-columns: 200px auto 100px 164px;
+    grid-template-columns: 200px auto 110px 164px;
     margin-left: 50px;
     margin-right: 50px;
     border-bottom: 1px;
@@ -39,6 +39,12 @@ div.nav {
     font-family: 'General Sans', sans-serif;
     font-weight: 200;
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.about:hover {
+    transform: scale(1.2);
+    transition: transform 0.5s ease-in-out;
 }
 
 .gallery {
