@@ -3,48 +3,48 @@
 		<div class="Gallery">
 			<div style="grid-area: ✅;" id="space"></div>
 
-			<div style="grid-area: 🟥;" id="img1">
-
+			<div style="grid-area: 🟥;" class="img1">
+				<img src="/assets/img/picture1.png" alt="1" />
 			</div>
 
-			<div style="grid-area: 🟫;" id="img2">
-
+			<div style="grid-area: 🟫;" class="img2">
+				<img src="/assets/img/picture2.png" alt="1" />
 			</div>
 
 			<div style="grid-area: ⬆️;" id="space"></div>
 
 			<div style="grid-area: 🅱️;" id="space"></div>
 
-			<div style="grid-area: 🟩;" id="img3">
-
+			<div style="grid-area: 🟩;" class="img3">
+				<img src="/assets/img/picture3.png" alt="1" />
 			</div>
 
-			<div style="grid-area: 🟨;" id="img4">
-
+			<div style="grid-area: 🟨;" class="img4">
+				<img src="/assets/img/picture4.png" alt="1" />
 			</div>
 
 			<div style="grid-area: 📴;" id="space"></div>
 
 			<div style="grid-area: 🛑;" id="space"></div>
 
-			<div style="grid-area: 🟪;" id="img5">
-
+			<div style="grid-area: 🟪;" class="img5">
+				<img src="/assets/img/picture5.png" alt="1" />
 			</div>
 
-			<div style="grid-area: 🟧;" id="img6">
-
+			<div style="grid-area: 🟧;" class="img6">
+				<img src="/assets/img/picture6.jpg" alt="1" />
 			</div>
 
 			<div style="grid-area: 🆎;" id="space"></div>
 
 			<div style="grid-area: 🈵;" id="space"></div>
 
-			<div style="grid-area: 🧮;" id="img7">
-
+			<div style="grid-area: 🧮;" class="img7">
+				<img src="/assets/img/picture7.jpg" alt="1" />
 			</div>
 
-			<div style="grid-area: ♋️;" id="img8">
-				
+			<div style="grid-area: ♋️;" class="img8">
+				<img src="/assets/img/picture8.jpg" alt="1" />
 			</div>
 
 			<div style="grid-area: 🚓;" id="space"></div>
