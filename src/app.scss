@@ -11,6 +11,8 @@ main {
     margin-bottom: 0px;
     scroll-behavior: smooth;
     max-width: 1512px;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 
@@ -25,11 +27,12 @@ div.nav {
     border-bottom: 1px;
     border-bottom-color: #181816;
     border-bottom-style: solid;
+    position: sticky;
+    top: 0;
+    background: rgba(244, 241, 235, 0.9);
 }
 
-#whitespace {
-    background-color: transparent;
-}
+
 
 .about {
     background-color: transparent;
@@ -40,10 +43,12 @@ div.nav {
     font-weight: 200;
     cursor: pointer;
     transition: transform 0.5s ease;
+
+
 }
 
 .about:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: transform 0.5s ease-in-out;
 }
 
@@ -64,3 +69,19 @@ div.nav {
     width: 80px;
     height: 80px;
 }
+
+html.lenis {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto;
+  }
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+  .lenis.lenis-scrolling iframe {
+    pointer-events: none;
+  }

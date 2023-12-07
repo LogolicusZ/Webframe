@@ -1,5 +1,5 @@
 <body>
-	<section class="section-1">
+	<section id="section-1">
 		<div class="landing">
 			<div style="grid-area: 🟥;" id="hey">
 				<p>Hey I'm</p>
@@ -10,7 +10,9 @@
 			</div>
 
 			<div style="grid-area: 🟪;" id="arrow">
-				<img class="logo" src="assets/down-arrow-svgrepo-com.svg" alt="LogolicusZ Logo" />
+				<a href="#section-2">
+					<img class="logo" src="assets/down-arrow-svgrepo-com.svg" alt="LogolicusZ Logo" />
+				</a>
 			</div>
 		</div>
 	</section>

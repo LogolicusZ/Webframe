@@ -10,4 +10,16 @@
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">%sveltekit.body%</div>
 	</body>
+
+	<script>
+		import Lenis from '@studio-freight/lenis';
+	  
+		let lenis = new Lenis();
+	  
+		function scrollToSection(sectionId) {
+		  lenis.scrollTo(sectionId);
+		}
+		</script>
+
+	  
 </html>

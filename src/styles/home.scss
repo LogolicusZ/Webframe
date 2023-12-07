@@ -39,6 +39,7 @@ div.landing {
 #arrow {
     display: grid;
     place-items: center;
+
 }
 
 #arrow img {
@@ -58,6 +59,7 @@ div.landing {
         -webkit-animation-delay: 2s; /* Delay of 2 seconds */
         -moz-animation-delay: 2s; /* Delay of 2 seconds */
         animation-delay: 2s; /* Delay of 2 seconds */
+        cursor: pointer;
    }
    
    @-moz-keyframes jumping-arrow {
