@@ -14,7 +14,7 @@ div.About {
 div.Title {
     display: grid;
     grid-template-areas: '🟦 🟧 🟨';
-    grid-template-columns:569px 374px 569px;
+    grid-template-columns:auto 374px auto;
     grid-template-rows: 200px;
     place-items: center;
 

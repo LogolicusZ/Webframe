@@ -2,7 +2,7 @@ div.Image-slider {
     display: grid;
     grid-template-areas: '🟦 🟧 🟨'
                          '🟪 🟥 🟩';
-    grid-template-columns:357.5px 797px 357.5px;
+    grid-template-columns:auto 797px auto;
     grid-template-rows: 300px 0px;
     place-items: center;
 
