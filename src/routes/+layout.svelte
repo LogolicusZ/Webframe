@@ -7,7 +7,7 @@
 <div class="nav">
     <div style="grid-area: 🟥;">
             <a href="/">
-            <img class="logo" src="assets/navbarlogo.png" alt="LogolicusZ Logo" />
+            <img class="logo" src="assets/logo1.svg" alt="LogolicusZ Logo" />
             </a>
     </div>
 

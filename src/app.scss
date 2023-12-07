@@ -7,16 +7,22 @@ main {
     font-family: 'General Sans', sans-serif;
     margin: 0;
     color: #181816;
-    background-color: #F4F1EB;
+    background-color: #FEFCED;
     margin-bottom: 0px;
     scroll-behavior: smooth;
     max-width: 1512px;
     margin-left: auto;
     margin-right: auto;
-    
+ 
 }
 
-
+ body::-webkit-scrollbar-track {
+  background: #FEFCED;
+ }
+ 
+ body {
+   scrollbar-color: #FEFCED;
+ }
 
 div.nav {
     display: grid;
@@ -29,7 +35,7 @@ div.nav {
     border-bottom-style: solid;
     position: sticky;
     top: 0;
-    background: rgba(244, 241, 235, 0.9);
+    background: rgba(254, 252, 237, 0.9);
 }
 
 
