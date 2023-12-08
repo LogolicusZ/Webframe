@@ -1,5 +1,16 @@
 <body>
 	<section id="section-1">
+		<div class="Title">
+			<div style="grid-area: 🟦;" id="addon1">
+				<img src="/icons/klammer1.svg" alt="circle" />
+			</div>
+			<div style="grid-area: 🟧 ;" id="Title">
+				<p>Gallery</p>
+			</div>
+			<div style="grid-area: 🟨;" id="addon2">
+				<img src="/icons/klammer1.svg" alt="circle" />
+			</div>
+		</div>
 		<div class="Gallery">
 			<div style="grid-area: ✅;" id="space"></div>
 

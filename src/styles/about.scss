@@ -1,20 +1,22 @@
-
+.section-3 {
+    height: 100vh;
+}
 
 div.About {
     display: grid;
     grid-template-areas: '🟥 🟦';
     grid-template-columns: 50% 50%;
-    height: 700px;
     margin-left: 50px;
     margin-right: 50px;
     font-weight: 200;
     margin-top: 50px;
+
 }
 
 div.Title {
     display: grid;
     grid-template-areas: '🟦 🟧 🟨';
-    grid-template-columns:auto 374px auto;
+    grid-template-columns: auto 374px auto;
     grid-template-rows: 200px;
     place-items: center;
 
@@ -23,18 +25,21 @@ div.Title {
 #Title {
     font-size: 130px;
     font-weight: 500;
-    margin: 0px;
+    margin: 0;
+    user-select: none;
 }
 
 #addon1 img {
-    margin-left: 350px ;
-  }
-  
-  #addon2 img {
-      margin-right: 350px ;
-      z-index: -10;
-    }
-  
+    margin-left: 350px;
+    user-select: none;
+}
+
+#addon2 img {
+    margin-right: 350px;
+
+    user-select: none;
+}
+
 
 .picture {
     width: 480px;
@@ -42,6 +47,7 @@ div.Title {
     border-radius: 15px;
     margin-left: 110px;
     // filter: drop-shadow(0px 4px 14.3px rgba(0, 0, 0, 0.5));
+    user-select: none;
 
 }
 

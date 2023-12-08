@@ -4,98 +4,141 @@
 html,
 body,
 main {
-    font-family: 'General Sans', sans-serif;
-    margin: 0;
-    color: #181816;
-    background-color: #FEFCED;
-    margin-bottom: 0px;
-    scroll-behavior: smooth;
-    max-width: 1512px;
-    margin-left: auto;
-    margin-right: auto;
- 
+  font-family: 'General Sans', sans-serif;
+  margin: 0;
+  color: #181816;
+  background-color: #FEFCED;
+  margin-bottom: 0px;
+  scroll-behavior: smooth;
+  max-width: 1512px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
- body::-webkit-scrollbar-track {
-  background: #FEFCED;
- }
- 
- body {
-   scrollbar-color: #FEFCED;
- }
 
 div.nav {
-    display: grid;
-    grid-template-areas: '🟥 🟩 🟪 🟦';
-    grid-template-columns: 200px auto 110px 164px;
-    margin-left: 50px;
-    margin-right: 50px;
-    border-bottom: 1px;
-    border-bottom-color: #181816;
-    border-bottom-style: solid;
-    position: sticky;
-    top: 0;
-    background: rgba(254, 252, 237, 0.9);
-    z-index: 10;
+  display: grid;
+  grid-template-areas: '🟥 🟩 🟪 🟦';
+  grid-template-columns: 200px auto 110px 164px;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom: 1px;
+  border-bottom-color: #181816;
+  border-bottom-style: solid;
+  position: sticky;
+  top: 0;
+  background: rgba(254, 252, 237, 0.9);
+  z-index: 10;
 }
 
 
 
 .about {
-    background-color: transparent;
-    font-size: 30px;
-    border-color: transparent;
-    margin-top: 15px;
-    font-family: 'General Sans', sans-serif;
-    font-weight: 200;
-    cursor: pointer;
-    transition: transform 0.5s ease;
+  background-color: transparent;
+  font-size: 30px;
+  border-color: transparent;
+  margin-top: 15px;
+  font-family: 'General Sans', sans-serif;
+  font-weight: 200;
+  cursor: pointer;
+  transition: 0.5s ease;
+  user-select: none;
 
 
 }
 
 .about:hover {
-    transform: scale(1.1);
-    transition: transform 0.5s ease-in-out;
+
+  color: #4F3BB5;
+}
+
+.about:active {
+
+  transform: scale(0.9);
+  color: #4F3BB5;
 }
 
 .gallery {
-    background-color: #4F3BB5;
-    font-size: 30px;
-    border-color: transparent;
-    border-radius: 25px;
-    color: #F4F1EB;
-    width: 164px;
-    margin-top: 15px;
-    font-weight: 200;
-    font-family: 'General Sans', sans-serif;
-    cursor: pointer;
-    transition: transform 0.5s ease;
+  background-color: #4F3BB5;
+  font-size: 30px;
+  border-color: transparent;
+  border-radius: 25px;
+  color: #F4F1EB;
+  width: 164px;
+  margin-top: 15px;
+  font-weight: 200;
+  font-family: 'General Sans', sans-serif;
+  cursor: pointer;
+  transition: 0.2s ease;
+  user-select: none;
 }
 
 .gallery:hover {
-  transform: scale(1.1);
-  transition: transform 0.5s ease-in-out;
+  opacity: 0.9;
+}
+
+.gallery:active {
+  opacity: 0.8;
+  transform: scale(0.96);
 }
 
 
 .logo {
-    width: 80px;
-    height: 80px;
+  width: 80px;
+  height: 80px;
+  user-select: none;
 }
 
 html.lenis {
-    height: auto;
-  }
-  .lenis.lenis-smooth {
-    scroll-behavior: auto;
-  }
-  .lenis.lenis-smooth [data-lenis-prevent] {
-    overscroll-behavior: contain;
-  }
-  .lenis.lenis-stopped {
-    overflow: hidden;
-  }
-  .lenis.lenis-scrolling iframe {
-    pointer-events: none;
-  }
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-scrolling iframe {
+  pointer-events: none;
+}
+
+/* Scrollbars */
+
+// Firefox
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #FEFCED;
+  /* Set the thumb and track colors */
+  background-clip: padding-box;
+  /* Remove the background */
+}
+
+// Webkit & Blink
+*::-webkit-scrollbar {
+  width: 6px;
+  background-color: #FEFCED;
+  background-clip: padding-box;
+  /* Remove the background */
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #FEFCED;
+  border-radius: 5px;
+}
+
+*::-webkit-scrollbar-track {
+  background-color: #FEFCED;
+  /* Set a fallback color */
+}
+
+*::-webkit-scrollbar-track-piece {
+  background-color: #FEFCED;
+}

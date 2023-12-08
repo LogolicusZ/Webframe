@@ -1,102 +1,78 @@
 div.Gallery {
     display: grid;
-    grid-template-areas:'✅ 🟥 🟫 ⬆️'
-                        '🅱️ 🟩 🟨 📴'
-                        '🛑 🟪 🟧 🆎'
-                        '🈵 🧮 ♋️ 🚓';
+    grid-template-areas: '✅ 🟥 🟫 ⬆️'
+        '🅱️ 🟩 🟨 📴'
+        '🛑 🟪 🟧 🆎'
+        '🈵 🧮 ♋️ 🚓';
     grid-template-rows: 655px 655px 655px 655px;
     grid-template-columns: auto 519px 519px auto;
     margin-left: 50px;
     margin-right: 50px;
     height: 95%;
     font-weight: 200;
-    margin-top: 50px;
+
 }
+
+div.Title {
+    display: grid;
+    grid-template-areas: '🟦 🟧 🟨';
+    grid-template-columns: auto 374px auto;
+    grid-template-rows: 200px;
+    place-items: center;
+    margin: 0;
+
+}
+
+#Title {
+    font-size: 130px;
+    font-weight: 500;
+    margin: 0;
+    user-select: none;
+
+}
+
+#addon1 img {
+    margin-left: 350px;
+    user-select: none;
+}
+
+#addon2 img {
+    margin-right: 350px;
+    z-index: -10;
+    transform: scaleX(-1);
+    user-select: none;
+}
+
 
 .Gallery img {
     height: 588px;
     width: 441px;
     border-radius: 10px;
     display: block;
-   margin-left: auto;
-   margin-right: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 
-
-.img1:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease-in;
-}
-
-.img2:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease-in;
-}
-
-.img3:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease-in;
-}
-
-.img4:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease-in;
-}
-
-.img5:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease-in;
-}
-
-.img6:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease-in;
-}
-
-.img7:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease-in;
-}
-
-.img8:hover {
-    transform: scale(1.05);
-    transition: transform 0.5s ease-in-out;
-}
-
-.img1 {
-    transition: transform 0.5s ease;
-
-}
-.img2 {
-    transition: transform 0.5s ease;
-}
-.img3 {
-    transition: transform 0.5s ease;
-}
-.img4 {
-    transition: transform 0.5s ease;
-}
-.img5 {
-    transition: transform 0.5s ease;
-}
-.img6 {
-    transition: transform 0.5s ease;
-}
-.img7 {
-    transition: transform 0.5s ease;
-}
-.img8 {
-    transition: transform 0.5s ease;
-}
-
-.img1,
-.img2,
-.img3,
-.img4,
-.img5,
-.img6,
-.img7,
+.img1 img,
+.img2 img,
+.img3 img,
+.img4 img,
+.img5 img,
+.img6 img,
+.img7 img,
 .img8 img {
-    filter: drop-shadow(10px 10px 5px grey);
+    user-select: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.img1 img:hover,
+.img2 img:hover,
+.img3 img:hover,
+.img4 img:hover,
+.img5 img:hover,
+.img6 img:hover,
+.img7 img:hover,
+.img8 img:hover {
+    transform: scale(1.05);
 }

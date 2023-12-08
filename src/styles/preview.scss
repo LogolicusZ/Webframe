@@ -1,26 +1,29 @@
 div.Image-slider {
-    display: grid;
-    grid-template-areas: '🟦 🟧 🟨'
-                         '🟪 🟥 🟩';
-    grid-template-columns:auto 797px auto;
-    grid-template-rows: 300px 0px;
-    place-items: center;
+	display: grid;
+	grid-template-areas: '🟦 🟧 🟨'
+		'🟪 🟥 🟩';
+	grid-template-columns: auto 797px auto;
+	grid-template-rows: 300px 0px;
+	place-items: center;
 
 }
 
 #addon1 img {
-  margin-left: 250px ;
+	margin-left: 250px;
+	user-select: none;
 }
 
 #addon2 img {
-    margin-right: 250px ;
-  }
+	margin-right: 250px;
+	user-select: none;
+}
 
 
 #Title {
-    font-size: 130px;
-    font-weight: 500;
-    margin: 0;
+	font-size: 130px;
+	font-weight: 500;
+	margin: 0;
+	user-select: none;
 }
 
 .container {
@@ -31,20 +34,22 @@ div.Image-slider {
 	position: relative;
 	width: 441px;
 	margin: 0 auto;
-  	height: 588px;
+	height: 588px;
 }
 
 .slider {
 	display: flex;
-  	height: 588px;
-  	width: 441px;
+	height: 588px;
+	width: 441px;
 	overflow-x: auto;
 	scroll-snap-type: x mandatory;
 	scroll-behavior: smooth;
 	box-shadow: 0 1.5rem 3rem -0.75rem #181816;
 	border-radius: 0.8rem;
-	-ms-overflow-style: none; /* Hide scrollbar IE and Edge */
-	scrollbar-width: none; /* Hide scrollbar Firefox */
+	-ms-overflow-style: none;
+	/* Hide scrollbar IE and Edge */
+	scrollbar-width: none;
+	/* Hide scrollbar Firefox */
 }
 
 /* Hide scrollbar for Chrome, Safari and Opera */
@@ -56,8 +61,8 @@ div.Image-slider {
 	flex: 1 0 100%;
 	scroll-snap-align: start;
 	object-fit: cover;
-  	height: 588px;
-  	width: 441px;
+	height: 588px;
+	width: 441px;
 }
 
 .slider-nav {
@@ -81,12 +86,5 @@ div.Image-slider {
 
 .slider-nav a:hover {
 	opacity: 20%;
-  
+
 }
-
-   
-
-
-  
-  
-   
