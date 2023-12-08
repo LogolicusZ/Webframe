@@ -110,6 +110,70 @@ html.lenis {
   pointer-events: none;
 }
 
+ /* Your CSS styles go here */
+ #footer {
+  background-color:transparent;
+  color:#181816 ;
+  font-size: 5px;
+  text-align: center;
+}
+
+.Rights {
+  font-size: 24px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+div.footer {
+  display: grid;
+  grid-template-areas: '🟩 🟪 🟦';
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 50px;
+  margin-right: 50px;
+  border-bottom: 1px;
+  max-width: 1512px;
+}
+
+.footer a {
+  display: block;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.button-container {
+  display: flex;
+}
+
+.Top {
+  background-color: #181816;
+  font-size: 30px;
+  border-color: transparent;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  user-select: none;
+  float: right;
+  align-self: center;
+  margin-left: auto;
+}
+
+.Top:hover {
+  opacity: 0.9;
+}
+
+.Top:active {
+  opacity: 0.8;
+  transform: scale(0.96);
+}
+
+.arrow  {
+  height: 30px;
+  width: 30px;
+  filter: invert(1);
+}
+
 /* Scrollbars */
 
 // Firefox
