@@ -1,3 +1,7 @@
+.section-4 {
+    height: 100vh;
+}
+
 div.Image-slider {
 	display: grid;
 	grid-template-areas: '🟦 🟧 🟨'
@@ -5,6 +9,7 @@ div.Image-slider {
 	grid-template-columns: auto 797px auto;
 	grid-template-rows: 300px 0px;
 	place-items: center;
+
 
 }
 
@@ -25,6 +30,12 @@ div.Image-slider {
 	margin: 0;
 	user-select: none;
 }
+
+#Title p {
+	margin: 0;
+
+}
+
 
 .container {
 	padding: 2rem;
@@ -63,6 +74,7 @@ div.Image-slider {
 	object-fit: cover;
 	height: 588px;
 	width: 441px;
+	user-select: none;
 }
 
 .slider-nav {

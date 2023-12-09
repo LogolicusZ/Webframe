@@ -122,6 +122,7 @@ html.lenis {
   font-size: 24px;
   margin-bottom: 10px;
   text-align: center;
+  user-select: none;
 }
 
 div.footer {
@@ -142,6 +143,8 @@ div.footer {
 
 .button-container {
   display: flex;
+  align-items: center;
+  margin-left: auto;
 }
 
 .Top {
@@ -154,9 +157,9 @@ div.footer {
   cursor: pointer;
   transition: 0.2s ease;
   user-select: none;
-  float: right;
-  align-self: center;
-  margin-left: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .Top:hover {
