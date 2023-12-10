@@ -1,5 +1,5 @@
 <body>
-	<section id="section-1">
+	<section class="section-1">
 		<div class="landing">
 			<div style="grid-area: 🟥;" id="hey">
 				<p>Hey I'm</p>

@@ -10,24 +10,23 @@ main {
   background-color: rgba(254, 252, 237,0.5);
   margin-bottom: 0px;
   scroll-behavior: smooth;
-  max-width: 1512px;
   margin-left: auto;
   margin-right: auto;
  
 
 }
- html {
-   background-image: url('static/assets/1grain.png');
- }
 
+
+main {
+  max-width: 1512px;
+ }
 
 
 div.nav {
   display: grid;
   grid-template-areas: '🟥 🟩 🟪 🟦';
   grid-template-columns: 200px auto 110px 164px;
-  margin-left: 50px;
-  margin-right: 50px;
+  margin:0 30px 0 30px;
   border-bottom: 1px;
   border-bottom-color: #181816;
   border-bottom-style: solid;
@@ -35,6 +34,8 @@ div.nav {
   top: 0;
   background: rgba(254, 252, 237, 0.9);
   z-index: 10;
+  width:98%;
+
 }
 
 
@@ -134,10 +135,9 @@ div.footer {
   display: grid;
   grid-template-areas: '🟩 🟪 🟦';
   grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 50px;
-  margin-right: 50px;
+  padding:0 30px 0 30px;
   border-bottom: 1px;
-  max-width: 1512px;
+  width:97%;
 }
 
 .footer a {
