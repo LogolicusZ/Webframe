@@ -1,5 +1,5 @@
 <body>
-	<section class="section-3" id="Me">
+	<section class="section-3" id="section-3">
 		<div id="about">
 			<div>
 				<div class="Title">

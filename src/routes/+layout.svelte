@@ -38,7 +38,7 @@
 	<div style="grid-area: 🟩;" id="whitespace"></div>
 
 	<div style="grid-area: 🟪;" id="About">
-		<a href="/#Me">
+		<a href="/#section-3">
 			<button class="about">About</button>
 		</a>
 	</div>
