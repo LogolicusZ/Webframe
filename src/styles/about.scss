@@ -1,26 +1,29 @@
-.section-3 {
+#section-3 {
     height: 100vh;
-    margin-bottom: 50px;
+    margin-bottom: 2em;
+    
+    h1 {
+        margin: 0;
+        font-weight: 500;
+        font-size: 130px;
+    }
 }
 
 div.About {
     display: grid;
     grid-template-areas: '🟥 🟦';
     grid-template-columns: 50% 50%;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 2em;
+    margin-right: 2em;
     font-weight: 200;
     margin-top: 50px;
-
 }
 
 div.Title {
-    display: grid;
-    grid-template-areas: '🟦 🟧 🟨';
-    grid-template-columns: auto 374px auto;
-    grid-template-rows: 200px;
-    place-items: center;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
 }
 
 #Title {

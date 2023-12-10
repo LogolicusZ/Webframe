@@ -1,23 +1,15 @@
-.section-2 {
+#section-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100vh;
     margin-bottom: 50px;
 }
 
 div.text {
-    display: grid;
-    grid-template-areas: '🟪 🟥 🟩';
-    grid-template-columns:auto 1143px auto;
-    grid-template-rows:700px;
-    margin-left: 50px;
-    margin-right: 50px;
-    place-items: center;
+    margin-left: 2em;
+    margin-right: 2em;
     font-size: 70px;
     font-weight: 500;
     letter-spacing: -5px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-}
-
-div { 
-padding-top: 50px;
 }

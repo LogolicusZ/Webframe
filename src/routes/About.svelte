@@ -1,5 +1,5 @@
 <body>
-	<section class="section-3" id="section-3">
+	<section id="section-3">
 		<div id="about">
 			<div>
 				<div class="Title">
@@ -7,7 +7,7 @@
 						<img src="/icons/aboutcircle.svg" alt="circle" />
 					</div>
 					<div style="grid-area: 🟧 ;" id="Title">
-						<p>About</p>
+						<h1>About</h1>
 					</div>
 					<div style="grid-area: 🟨;" id="addon2">
 						<img src="/icons/aboutcircle.svg" alt="circle" />
@@ -15,14 +15,14 @@
 				</div>
 				<div class="About">
 					<div style="grid-area: 🟥;" id="Picture">
-						<img class="picture" src="assets/pfp-aboutme.JPG" alt="about-picture" />
+						<img class="picture" src="assets/pfp-aboutme.JPG" alt="About me" />
 					</div>
 					<div style="grid-area: 🟦;" id="text">
 						<p class="who">Who am I?</p>
-						<p class="text-1">I am an independent artist dabbling into the World of photography.</p>
+						<p class="text-1">I am an independent artist dabbling into the world of photography.</p>
 						<p class="text-2">
-							When I am not taking photos or painting, I enjoy studying Frontend Development and
-							Designing.
+							When I am not taking photos or painting, I enjoy studying frontend development and
+							designing.
 						</p>
 					</div>
 				</div>
