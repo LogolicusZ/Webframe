@@ -26,7 +26,6 @@ div.nav {
   display: grid;
   grid-template-areas: '🟥 🟩 🟪 🟦';
   grid-template-columns: 200px auto 110px 164px;
-  margin:0 30px 0 30px;
   border-bottom: 1px;
   border-bottom-color: #181816;
   border-bottom-style: solid;
@@ -35,6 +34,7 @@ div.nav {
   background: rgba(254, 252, 237, 0.9);
   z-index: 10;
   width:98%;
+
 
 }
 
