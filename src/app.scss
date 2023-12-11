@@ -4,213 +4,182 @@
 html,
 body,
 main {
-  font-family: 'General Sans', sans-serif;
-  margin: 0;
-  color: #181816;
-  background-color: rgba(254, 252, 237,0.5);
-  margin-bottom: 0px;
-  scroll-behavior: smooth;
-  margin-left: auto;
-  margin-right: auto;
- 
-
+	font-family: 'General Sans', sans-serif;
+	margin: 0;
+	color: #181816;
+	background-color: rgba(254, 252, 237, 0.5);
+	margin-bottom: 0px;
+	scroll-behavior: smooth;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 
 main {
-  max-width: 1512px;
- }
-
-
-div.nav {
-  display: grid;
-  grid-template-areas: '🟥 🟩 🟪 🟦';
-  grid-template-columns: 200px auto 110px 164px;
-  border-bottom: 1px;
-  border-bottom-color: #181816;
-  border-bottom-style: solid;
-  position: sticky;
-  top: 0;
-  background: rgba(254, 252, 237, 0.9);
-  z-index: 10;
-  width:98%;
-
-
+	max-width: 1512px;
 }
 
+.nav-container {
+	display: flex;
+	justify-content: center;
+}
 
+.nav {
+	display: flex;
+	flex-direction: row;
+	position: sticky;
+	align-items: center;
+	width: 98%;
+	border-bottom: 1px;
+	border-bottom-color: #181816;
+	border-bottom-style: solid;
+	background: rgba(254, 252, 237, 0.9);
+	z-index: 10;
+
+	.nav-items {
+		margin-left: auto;
+		// float: right;
+	}
+
+	// .nav-logo {
+	//   justify-self: flex-start;
+	// }
+}
 
 .about {
-  background-color: transparent;
-  font-size: 30px;
-  border-color: transparent;
-  margin-top: 15px;
-  font-family: 'General Sans', sans-serif;
-  font-weight: 200;
-  cursor: pointer;
-  transition: 0.5s ease;
-  user-select: none;
-
-
+	background-color: transparent;
+	font-size: 30px;
+	border-color: transparent;
+	font-family: 'General Sans', sans-serif;
+	font-weight: 200;
+	cursor: pointer;
+	transition: 0.5s ease;
+	user-select: none;
 }
 
 .about:hover {
-
-  color: #7B41F5;
+	color: #7b41f5;
 }
 
 .about:active {
-
-  transform: scale(0.9);
-  color: #7B41F5;
+	transform: scale(0.9);
+	color: #7b41f5;
 }
 
 .gallery {
-  background-color: #7B41F5;
-  font-size: 30px;
-  border-color: transparent;
-  border-radius: 30px;
-  color: #F4F1EB;
-  width: 164px;
-  margin-top: 15px;
-  font-weight: 200;
-  font-family: 'General Sans', sans-serif;
-  cursor: pointer;
-  transition: 0.2s ease;
-  user-select: none;
-  padding: 5px 0 5px 0;
+	background-color: #7b41f5;
+	font-size: 30px;
+	border-color: transparent;
+	border-radius: 30px;
+	color: #f4f1eb;
+	width: 164px;
+	font-weight: 200;
+	font-family: 'General Sans', sans-serif;
+	cursor: pointer;
+	transition: 0.2s ease;
+	user-select: none;
+	padding: 5px 0 5px 0;
 }
 
 .gallery:hover {
-  opacity: 0.9;
+	opacity: 0.9;
 }
 
 .gallery:active {
-  opacity: 0.8;
-  transform: scale(0.96);
+	opacity: 0.8;
+	transform: scale(0.96);
 }
-
 
 .logo {
-  width: 80px;
-  height: 80px;
-  user-select: none;
+	width: 80px;
+	height: 80px;
+	user-select: none;
 }
 
-html.lenis {
-  height: auto;
+.footer {
+	display: flex;
+	margin: 0 32px 0 32px;
+	border-bottom: 10px #000000;
+	width: 97%;
+	margin-bottom: 1em;
+  justify-content: center;
+  align-items: center;
 }
 
-.lenis.lenis-smooth {
-  scroll-behavior: auto;
+.rights {
+	font-size: 1.2em;
+	text-align: center;
+	user-select: none;
 }
 
-.lenis.lenis-smooth [data-lenis-prevent] {
-  overscroll-behavior: contain;
-}
-
-.lenis.lenis-stopped {
-  overflow: hidden;
-}
-
-.lenis.lenis-scrolling iframe {
-  pointer-events: none;
-}
-
- /* Your CSS styles go here */
- #footer {
-  background-color:transparent;
-  color:#181816 ;
-  font-size: 5px;
-  text-align: center;
-}
-
-.Rights {
-  font-size: 24px;
-  margin-bottom: 10px;
-  text-align: center;
-  user-select: none;
-}
-
-div.footer {
-  display: grid;
-  grid-template-areas: '🟩 🟪 🟦';
-  grid-template-columns: 1fr 1fr 1fr;
-  padding:0 30px 0 30px;
-  border-bottom: 1px;
-  width:97%;
-}
-
-.footer a {
-  display: block;
-  margin-left: 0;
-  margin-right: 0;
+.footer.button-container {
+	display: block;
+	margin: 0;
 }
 
 .button-container {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
+	display: flex;
+	align-items: center;
+	margin-left: auto;
 }
 
 .Top {
-  background-color: #181816;
-  font-size: 30px;
-  border-color: transparent;
-  border-radius: 100px;
-  width: 50px;
-  height: 50px;
-  cursor: pointer;
-  transition: 0.2s ease;
-  user-select: none;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	background-color: #181816;
+	font-size: 30px;
+	border-color: transparent;
+	border-radius: 100px;
+	width: 50px;
+	height: 50px;
+	cursor: pointer;
+	transition: 0.2s ease;
+	user-select: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .Top:hover {
-  opacity: 0.9;
+	opacity: 0.9;
 }
 
 .Top:active {
-  opacity: 0.8;
-  transform: scale(0.96);
+	opacity: 0.8;
+	transform: scale(0.96);
 }
 
-.arrow  {
-  height: 30px;
-  width: 30px;
+.arrow {
+	height: 30px;
+	width: 30px;
 }
 
 /* Scrollbars */
 
 // Firefox
 * {
-  scrollbar-width: thin;
-  scrollbar-color: #FEFCED;
-  /* Set the thumb and track colors */
-  background-clip: padding-box;
-  /* Remove the background */
+	scrollbar-width: thin;
+	scrollbar-color: #fefced;
+	/* Set the thumb and track colors */
+	background-clip: padding-box;
+	/* Remove the background */
 }
 
 // Webkit & Blink
 *::-webkit-scrollbar {
-  width: 6px;
-  background-color: #FEFCED;
-  background-clip: padding-box;
-  /* Remove the background */
+	width: 6px;
+	background-color: #fefced;
+	background-clip: padding-box;
+	/* Remove the background */
 }
 
 *::-webkit-scrollbar-thumb {
-  background-color: #FEFCED;
-  border-radius: 5px;
+	background-color: #fefced;
+	border-radius: 5px;
 }
 
 *::-webkit-scrollbar-track {
-  background-color: #FEFCED;
-  /* Set a fallback color */
+	background-color: #fefced;
+	/* Set a fallback color */
 }
 
 *::-webkit-scrollbar-track-piece {
-  background-color: #FEFCED;
+	background-color: #fefced;
 }
