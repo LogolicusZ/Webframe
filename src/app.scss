@@ -56,20 +56,20 @@ div.nav {
 
 .about:hover {
 
-  color: #4F3BB5;
+  color: #7B41F5;
 }
 
 .about:active {
 
   transform: scale(0.9);
-  color: #4F3BB5;
+  color: #7B41F5;
 }
 
 .gallery {
-  background-color: #4F3BB5;
+  background-color: #7B41F5;
   font-size: 30px;
   border-color: transparent;
-  border-radius: 25px;
+  border-radius: 30px;
   color: #F4F1EB;
   width: 164px;
   margin-top: 15px;
@@ -78,6 +78,7 @@ div.nav {
   cursor: pointer;
   transition: 0.2s ease;
   user-select: none;
+  padding: 5px 0 5px 0;
 }
 
 .gallery:hover {
