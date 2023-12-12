@@ -12,4 +12,5 @@
 <style lang="scss">
 	@import '../app.scss';
 	@import '../styles/text.scss';
+	@import '../styles/Mobile/text-mobile.scss';
 </style>

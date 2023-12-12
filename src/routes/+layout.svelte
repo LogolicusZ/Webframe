@@ -1,5 +1,6 @@
 <script lang="ts">
 	import '../app.scss';
+    import '../styles/Mobile/app-mobile.scss';
 
 	import { fly } from 'svelte/transition';
 	export let data;
@@ -48,27 +49,6 @@
 		<slot />
 	</main>
 {/key}
-
-<!-- <div class="footer">
-	<div style="grid-area: 🟩;" id="whitespace"></div>
-
-	<div style="grid-area: 🟪;" id="About">
-        <div class="Rights">
-            <p>© LoglicusZ 2024, All rights reserved.</p>
-        </div>
-	</div>
-	<div class="button-container" style="grid-area: 🟦;" id="Gallery">
-        <a 
-            on:click={() => scrollToTop()}
-            role="button"
-            href="#top"
-        >
-			<button  class="Top">
-                <img src="../icons/arrowup.svg" class="arrow" alt="arrow-up"/>
-            </button>
-        </a>
-	</div>
-</div> -->
 
 <div class="footer">
 	<p class="rights">&copy; LogolicusZ 2023-2024, All rights reserved.</p>

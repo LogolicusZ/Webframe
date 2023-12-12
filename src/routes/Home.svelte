@@ -35,4 +35,5 @@
 <style lang="scss">
 	@import '../app.scss';
 	@import '../styles/home.scss';
+	@import '../styles/Mobile/home-mobile.scss';
 </style>

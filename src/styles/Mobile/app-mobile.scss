@@ -1,0 +1,21 @@
+@media (max-width: 700px) {
+    .about {
+        display: none;
+
+    }
+
+    .rights {
+        font-size:0.8em;
+    }
+
+    .nav {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 850px) {
+    main {
+        max-width: 3000px;
+    }
+}

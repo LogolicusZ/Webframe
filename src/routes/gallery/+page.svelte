@@ -68,4 +68,5 @@
 <style lang="scss">
 	@import '../../app.scss';
 	@import '../../styles/gallery.scss';
+	@import '../../styles/Mobile/gallery-mobile.scss';
 </style>
