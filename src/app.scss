@@ -16,19 +16,21 @@ main {
 
 main {
 	max-width: 1512px;
-
 }
 
 .nav-container {
 	display: flex;
 	justify-content: center;
+	position: sticky;
+	top: 0;
+	backdrop-filter: blur(4px);
 }
 
 .nav {
 	display: flex;
 	flex-direction: row;
-	position: sticky;
 	align-items: center;
+	position: sticky;
 	width: 98%;
 	border-bottom: 1px;
 	border-bottom-color: #181816;
@@ -97,8 +99,8 @@ main {
 	border-bottom: 10px #000000;
 	width: 97%;
 	margin-bottom: 1em;
-  justify-content: center;
-  align-items: center;
+	justify-content: center;
+	align-items: center;
 }
 
 .rights {
