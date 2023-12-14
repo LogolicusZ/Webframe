@@ -1,15 +1,13 @@
 <body>
 	<section id="section-3">
-		<div id="about">
-			<div>
 				<div class="Title">
-					<div style="grid-area: 🟦;" id="addon1">
+					<div id="addon1">
 						<img src="/icons/star.svg" alt="circle" />
 					</div>
-					<div style="grid-area: 🟧 ;" id="Title">
+					<div class="title1">
 						<h1>About</h1>
 					</div>
-					<div style="grid-area: 🟨;" id="addon2">
+					<div id="addon2">
 						<img src="/icons/star.svg" alt="circle" />
 					</div>
 				</div>
@@ -26,8 +24,6 @@
 						</p>
 					</div>
 				</div>
-			</div>
-		</div>
 	</section>
 </body>
 

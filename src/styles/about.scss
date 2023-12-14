@@ -11,26 +11,25 @@
     }
 }
 
-div.About {
-    display: grid;
-    grid-template-areas: '🟥 🟦';
-    grid-template-columns: 50% 50%;
-    margin-left: 2em;
-    margin-right: 2em;
+.About {
+    display: flex;
     font-weight: 200;
     margin-top: 50px;
     height: auto;
+    gap: 3em;
+    align-items: center;
+	justify-content: center;
+    width: 1000px;
 }
 
-div.Title {
+.Title {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 2em;
 }
 
-#Title {
-    font-size: 130px;
+.title1  {
     font-weight: 500;
     margin: 0;
     user-select: none;
@@ -39,11 +38,15 @@ div.Title {
 #addon1 img {
     margin-left: 350px;
     user-select: none;
+    width: 3.5em;
+    height: 3.5em;
 }
 
 #addon2 img {
     margin-right: 350px;
     user-select: none;
+    width: 3.5em;
+    height: 3.5em;
 }
 
 
@@ -51,7 +54,7 @@ div.Title {
     width: 441px;
     height: 588px;
     border-radius: 5px;
-    margin-left: 110px;
+
     user-select: none;
 
 }

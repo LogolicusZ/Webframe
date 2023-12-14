@@ -1,1 +1,37 @@
 
+@media (max-width: 850px) {
+    h1 {
+        font-size: 65px;
+    }
+
+    #addon2 img {
+        width: 2em;
+        height: 2em;
+    }
+
+    #addon1 img {
+        width: 2em;
+        height: 2em;
+    }
+
+    .About {
+        flex-direction: column;
+        gap: 0;
+
+    }
+
+    .who {
+        font-size: 60px;
+
+    }
+    
+    .text-1 {
+        font-size: 20px;
+
+    }
+    
+    .text-2 {
+        font-size: 20px;
+
+    }
+}

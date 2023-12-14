@@ -1,20 +1,21 @@
 @media (max-width: 850px) {
     .hey {
-        font-size: 20px;
+        font-size: 30px;
     }
 
     .name {
-        font-size: 80px;
+        font-size: 110px;
         letter-spacing: -7px;
+        margin-top: 10px;
     }
 
     .arrow {
-        width: 1.5em;
-        height: 1.5em;
+        width: 3em;
+        height: 3em;
 
         svg {
-            width: 1.5em;
-            height: 1.5em;
+            width: 3em;
+            height: 3em;
         
         }
     }
