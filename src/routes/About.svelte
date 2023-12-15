@@ -2,13 +2,15 @@
 	<section id="section-3">
 		<div class="Title">
 			<div id="addon1">
-				<img src="/icons/star.svg" alt="circle" />
+				<img src="/icons/star.svg" alt="circle" class="light" />
+				<img src="/icons/stardark.svg" alt="circledark" class="dark" />
 			</div>
 			<div class="title1">
 				<h1>About</h1>
 			</div>
 			<div id="addon2">
-				<img src="/icons/star.svg" alt="circle" />
+				<img src="/icons/star.svg" alt="circle" class="light1" />
+				<img src="/icons/stardark.svg" alt="circledark" class="dark1"/>
 			</div>
 		</div>
 		<div class="about-container">
@@ -26,7 +28,7 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="button-gallery-container">
+		<!-- <div class="button-gallery-container">y
 			<a href="/gallery">
 				<button class="Gallery-About">Gallery</button>
 			</a>

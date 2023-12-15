@@ -42,18 +42,42 @@
     user-select: none;
 }
 
-#addon1 img {
+.light img {
     margin-left: 350px;
     user-select: none;
     width: 3.5em;
     height: 3.5em;
 }
 
-#addon2 img {
+.light1 img {
     margin-right: 350px;
     user-select: none;
     width: 3.5em;
     height: 3.5em;
+}
+.dark img {
+    margin-left: 350px;
+    user-select: none;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+.dark1 img {
+    margin-right: 350px;
+    user-select: none;
+    width: 3.5em;
+    height: 3.5em;
+}
+
+@media (prefers-color-scheme: dark) {
+	.dark img {
+		visibility: visible;
+		display: inline;
+	}
+	.light img {
+		visibility: hidden;
+		display: none;
+	}
 }
 
 

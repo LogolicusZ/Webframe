@@ -4,12 +4,14 @@
 			<div class="Title">
 				<div style="grid-area: 🟦;" id="addon1">
 					<img src="/icons/klammer1.svg" alt="circle" />
+					<img src="/icons/klammer1dark.svg" alt="circle" />
 				</div>
 				<div style="grid-area: 🟧 ;" id="Title">
 					<p>Gallery</p>
 				</div>
 				<div style="grid-area: 🟨;" id="addon2">
 					<img src="/icons/klammer1.svg" alt="circle" />
+					<img src="/icons/klammer1dark.svg" alt="circle" />
 				</div>
 			</div>
 			<div class="Gallery">

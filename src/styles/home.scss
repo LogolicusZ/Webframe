@@ -63,7 +63,7 @@ div.landing {
 }
 
 @media (prefers-color-scheme: dark) {
-	.arrow {
+	.arrow svg {
 		filter: invert(1);
 	}
 }
