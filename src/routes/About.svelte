@@ -26,6 +26,11 @@
 				</div>
 			</div>
 		</div>
+		<!-- <div class="button-gallery-container">
+			<a href="/gallery">
+				<button class="Gallery-About">Gallery</button>
+			</a>
+		</div> -->
 	</section>
 </body>
 

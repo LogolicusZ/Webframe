@@ -62,6 +62,12 @@ div.landing {
   
 }
 
+@media (prefers-color-scheme: dark) {
+	.arrow {
+		filter: invert(1);
+	}
+}
+
 @-moz-keyframes jumping-arrow {
 	0%,
 	20%,

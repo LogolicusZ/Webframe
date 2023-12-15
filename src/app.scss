@@ -1,6 +1,21 @@
 @import url('https://fonts.cdnfonts.com/css/general-sans?styles=135312,135307,135305,135306,135308,135309,135310,135311,135313,135314,135303,135304');
 
+// Color Palette Light mode 
+$space-beige: #F4F1EB; //Background
+$space-black: #181816; //Text
+$space-purple: #7b41f5; //Accent
+
+
+// Color Palette Dark mode 
+$universe-black: #181816; //Background
+$universe-beige: #F4F1EB; //Text
+$lime-green: #C0FE1F; //Accent
+
+// Font Family
+$font-family: 'General Sans', sans-serif;
+
 /* general style */
+
 html,
 body,
 main {
@@ -12,6 +27,22 @@ main {
 	scroll-behavior: smooth;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+@media (prefers-color-scheme: dark) {
+
+	html,
+	body,
+	main {
+		font-family: 'General Sans', sans-serif;
+		margin: 0;
+		color: #F4F1EB;
+		background-color: #181816;
+		margin-bottom: 0px;
+		scroll-behavior: smooth;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 main {
@@ -26,7 +57,10 @@ main {
 	position: sticky;
 	top: 0;
 	backdrop-filter: blur(4px);
+	z-index: 100;
 }
+
+
 
 .nav {
 	display: flex;
@@ -38,10 +72,16 @@ main {
 	border-bottom-color: #181816;
 	border-bottom-style: solid;
 	background: rgba(254, 252, 237, 0.9);
-	z-index: 10;
 
 	.nav-items {
 		margin-left: auto;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	.nav {
+		border-bottom-color: rgba(254, 252, 237, 0.9);
+		background: rgba(24, 24, 22, 0.9);
 	}
 }
 
@@ -54,10 +94,19 @@ main {
 	cursor: pointer;
 	transition: 0.5s ease;
 	user-select: none;
+	color: #F4F1EB;
 }
+
+
 
 .about:hover {
 	color: #7b41f5;
+}
+
+@media (prefers-color-scheme: dark) {
+	.about:hover {
+		color: #C0FE1F;
+	}
 }
 
 .about:active {
@@ -65,8 +114,14 @@ main {
 	color: #7b41f5;
 }
 
+@media (prefers-color-scheme: dark) {
+	.about:active {
+		color: #C0FE1F;
+	}
+}
+
 .gallery {
-	background-color: #7b41f5;
+	background-color: $space-purple;
 	font-size: 30px;
 	border-color: transparent;
 	border-radius: 30px;
@@ -78,6 +133,13 @@ main {
 	transition: 0.2s ease;
 	user-select: none;
 	padding: 5px 0 5px 0;
+}
+
+@media (prefers-color-scheme: dark) {
+	.gallery {
+		background-color: #C0FE1F;
+		color:#181816;
+	}
 }
 
 .gallery:hover {
@@ -95,12 +157,33 @@ main {
 	user-select: none;
 }
 
+@media (prefers-color-scheme: light) {
+	.logo {
+		visibility: 1;
+	}
+}
+
+
+.logodark {
+	width: 80px;
+	height: 80px;
+	user-select: none;
+	visibility: hidden;
+}
+
+@media (prefers-color-scheme: dark) {
+	.logodark {
+		visibility: visible;
+	}
+	.logo {
+		visibility: hidden;
+	}
+}
+
 .footer {
 	display: flex;
-	margin: 0 32px 0 32px;
-	border-bottom: 10px #000000;
-	width: 97%;
-	margin-bottom: 1em;
+	width: 98%;
+	margin-bottom: 0.1em;
 	justify-content: center;
 	align-items: center;
 }
@@ -122,33 +205,95 @@ main {
 	margin-left: auto;
 }
 
-.Top {
-	background-color: #181816;
-	font-size: 30px;
-	border-color: transparent;
-	border-radius: 100px;
-	width: 50px;
-	height: 50px;
+
+.arrow {
+	height: 30px;
+	width: 30px;
+}
+
+.Btn {
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	width: 45px;
+	height: 45px;
+	border-radius: calc(45px/2);
+	border: none;
 	cursor: pointer;
-	transition: 0.2s ease;
-	user-select: none;
+	position: relative;
+	overflow: hidden;
+	transition-duration: .3s;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
+	background: #181816;
+}
+
+.arrow-up {
+	width: 100%;
+	font-size: 2.2em;
+	color: #f4f1eb;
+	transition-duration: .3s;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-.Top:hover {
-	opacity: 0.9;
+/* text */
+.text-top {
+	position: absolute;
+	right: 0%;
+	width: 0%;
+	opacity: 0;
+	color: #f4f1eb;
+	font-size: 1.4em;
+	font-weight: 500;
+	transition-duration: .3s;
 }
 
-.Top:active {
-	opacity: 0.8;
-	transform: scale(0.96);
+/* hover effect on button width */
+.Btn:hover {
+	width: 8em;
+	transition-duration: .3s;
+	background: #7b41f5;
 }
 
-.arrow {
-	height: 30px;
-	width: 30px;
+.Btn:hover .arrow-up {
+	width: 30%;
+	transition-duration: .3s;
+	padding-left: 15px;
+}
+
+/* hover effect button's text */
+.Btn:hover .text-top {
+	opacity: 1;
+	width: 70%;
+	right: -15%;
+	transition-duration: .3s;
+	padding-right: 15px;
+}
+
+/* button click effect*/
+.Btn:active {
+	transform: translate(2px, 2px);
+}
+
+@media (prefers-color-scheme: dark) {
+	.text-top {
+		color: #181816;
+
+	}
+	.Btn:hover {
+
+		background: #C0FE1F;
+	}
+
+	.arrow-up {
+
+		filter: invert(1);
+	}
+	.Btn {
+		background: $space-beige;
+	}
+	
 }
 
 /* Scrollbars */
@@ -171,7 +316,7 @@ main {
 }
 
 *::-webkit-scrollbar-thumb {
-	background-color: #fefced;
+	background-color: hwb(55 76% 20%);
 	border-radius: 5px;
 }
 

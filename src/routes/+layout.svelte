@@ -31,6 +31,7 @@
         <div class="nav-logo">
             <a href="/">
                 <img class="logo" src="assets/logo1.svg" alt="LogolicusZ Logo" />
+				<img class="logodark" src="assets/logodark.svg" alt="LogolicusZ Logo" />
             </a>
         </div>
         <div class="nav-items">
@@ -50,13 +51,18 @@
 	</main>
 {/key}
 
-<div class="footer">
-	<p class="rights">&copy; LogolicusZ 2023-2024, All rights reserved.</p>
-	<div class="button-container">
-		<a on:click={() => scrollToTop()} role="button" href="#top">
-			<button class="Top">
-				<img src="../icons/arrowup.svg" class="arrow" alt="arrow-up" />
-			</button>
-		</a>
+<div class="Footer-container">
+	<div class="footer">
+		<p class="rights">&copy; LogolicusZ 2023-2024, All rights reserved.</p>
+		<div class="button-container">
+			<a on:click={() => scrollToTop()} role="button" href="#top">	
+				<button class="Btn">
+	
+					<div class="arrow-up"><img src="../icons/arrowup.svg" class="arrow" alt="arrow-up" /></div>
+					
+					<div class="text-top">Top</div>
+				</button>
+			</a>
+		</div>
 	</div>
 </div>
