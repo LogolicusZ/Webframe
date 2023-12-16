@@ -11,13 +11,20 @@
     gap: 2em;
 }
 
-.titlegallery {
+.title-gallery {
     font-size: 130px;
     font-weight: 500;
     margin: 0;
     user-select: none;
 
+    p {
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+
 }
+
+
 
 #addon1 img {
     user-select: none;
@@ -58,50 +65,57 @@
 }
 
 
+.Gallery-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
 
 .Gallery {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    margin-left: 50px;
-    margin-right: 50px;
-    height: 95%;
+    height: auto;
     font-weight: 200;
-    gap: 2em;
+    gap: 3em;
     align-items: center;
- }
- 
+    width: 70%;
+    margin-left: 15%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: 0 0 48%;
+}
 
- 
- .Gallery img {
+
+
+.Gallery img {
     height: 588px;
     width: 441px;
     border-radius: 5px;
     display: block;
     margin-left: auto;
     margin-right: auto;
- }
- 
- .img1 img,
- .img2 img,
- .img3 img,
- .img4 img,
- .img5 img,
- .img6 img,
- .img7 img,
- .img8 img {
+}
+
+.img1 img,
+.img2 img,
+.img3 img,
+.img4 img,
+.img5 img,
+.img6 img,
+.img7 img,
+.img8 img {
     user-select: none;
     transition: transform 0.2s ease-in-out;
- }
- 
- .img1 img:hover,
- .img2 img:hover,
- .img3 img:hover,
- .img4 img:hover,
- .img5 img:hover,
- .img6 img:hover,
- .img7 img:hover,
- .img8 img:hover {
+}
+
+.img1 img:hover,
+.img2 img:hover,
+.img3 img:hover,
+.img4 img:hover,
+.img5 img:hover,
+.img6 img:hover,
+.img7 img:hover,
+.img8 img:hover {
     transform: scale(1.05);
- }
- 
+}
