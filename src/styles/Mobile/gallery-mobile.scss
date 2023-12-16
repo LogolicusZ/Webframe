@@ -1,14 +1,15 @@
 
 @media (max-width: 650px) {
-    .Gallery {
+    .Gallery-container {
         flex-direction: column;
-        margin-bottom: 0;
+        margin-bottom: 10em;
     }
 }
 
 @media (max-width: 850px) {
     .Gallery img {
-        width: 352.8px;
-        height: 470.4px;
+        margin-bottom: 0;
+        height: 30em;
+        width: 22em;
     }
-}   
+}

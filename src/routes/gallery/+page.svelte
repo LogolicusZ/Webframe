@@ -16,53 +16,21 @@
 			</div>
 			<div class="Gallery-contaienr">
 				<div class="Gallery">
-					<div id="space"></div>
+					<img class="img1 img" src="/assets/img/picture1.png" alt="1" />
 
-					<div class="img1">
-						<img src="/assets/img/picture1.png" alt="1" />
-					</div>
+					<img class="img2" src="/assets/img/picture2.png" alt="2" />
 
-					<div class="img2">
-						<img src="/assets/img/picture2.png" alt="2" />
-					</div>
+					<img class="img3" src="/assets/img/picture3.png" alt="3" />
 
-					<div id="space"></div>
+					<img class="img4" src="/assets/img/picture4.png" alt="4" />
 
-					<div id="space"></div>
+					<img class="img5" src="/assets/img/picture5.png" alt="5" />
 
-					<div class="img3">
-						<img src="/assets/img/picture3.png" alt="3" />
-					</div>
+					<img class="img6" src="/assets/img/picture6.jpg" alt="6" />
 
-					<div class="img4">
-						<img src="/assets/img/picture4.png" alt="4" />
-					</div>
+					<img class="img7" src="/assets/img/picture7.jpg" alt="7" />
 
-					<div id="space"></div>
-
-					<div id="space"></div>
-
-					<div class="img5">
-						<img src="/assets/img/picture5.png" alt="5" />
-					</div>
-
-					<div class="img6">
-						<img src="/assets/img/picture6.jpg" alt="6" />
-					</div>
-
-					<div id="space"></div>
-
-					<div id="space"></div>
-
-					<div class="img7">
-						<img src="/assets/img/picture7.jpg" alt="7" />
-					</div>
-
-					<div class="img8">
-						<img src="/assets/img/picture8.jpg" alt="8" />
-					</div>
-
-					<div id="space"></div>
+					<img class="img8" src="/assets/img/picture8.jpg" alt="8" />
 				</div>
 			</div>
 		</section>

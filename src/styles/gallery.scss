@@ -89,33 +89,34 @@
 
 
 .Gallery img {
-    height: 588px;
-    width: 441px;
-    border-radius: 5px;
+    height: 37em;
+    width: 28em;
+    border-radius: 8px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
-.img1 img,
-.img2 img,
-.img3 img,
-.img4 img,
-.img5 img,
-.img6 img,
-.img7 img,
-.img8 img {
+.img1,
+.img2,
+.img3,
+.img4,
+.img5,
+.img6,
+.img7,
+.img8 {
     user-select: none;
-    transition: transform 0.2s ease-in-out;
+    transition: transform 0.2s ease-in-out, border-radius 0.2s ease-in-out;
 }
 
-.img1 img:hover,
-.img2 img:hover,
-.img3 img:hover,
-.img4 img:hover,
-.img5 img:hover,
-.img6 img:hover,
-.img7 img:hover,
-.img8 img:hover {
+.img1:hover,
+.img2:hover,
+.img3:hover,
+.img4:hover,
+.img5:hover,
+.img6:hover,
+.img7:hover,
+.img8:hover {
     transform: scale(1.05);
+    border-radius: 16px;
 }
