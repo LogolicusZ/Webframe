@@ -40,44 +40,50 @@
     font-weight: 500;
     margin: 0;
     user-select: none;
+    font-size: 130px;
 }
 
-.light img {
-    margin-left: 350px;
-    user-select: none;
-    width: 3.5em;
-    height: 3.5em;
-}
+#addon1 img {
 
-.light1 img {
-    margin-right: 350px;
-    user-select: none;
-    width: 3.5em;
-    height: 3.5em;
-}
-.dark img {
-    margin-left: 350px;
     user-select: none;
     width: 3.5em;
     height: 3.5em;
 }
 
-.dark1 img {
-    margin-right: 350px;
+#addon2 img {
+
     user-select: none;
     width: 3.5em;
     height: 3.5em;
 }
+.light,
+.light1 {
+    visibility: visible;
+    display: inline;
+}
+
+.dark,
+.dark1 {
+    visibility: hidden;
+    display: none;
+
+}
+
+
 
 @media (prefers-color-scheme: dark) {
-	.dark img {
-		visibility: visible;
-		display: inline;
-	}
-	.light img {
-		visibility: hidden;
-		display: none;
-	}
+    .light,
+    .light1 {
+        visibility: hidden;
+        display: none;
+    }
+    
+    .dark,
+    .dark1 {
+        visibility: visible;
+        display: inline;
+    
+    } 
 }
 
 

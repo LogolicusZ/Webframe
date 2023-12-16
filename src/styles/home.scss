@@ -36,7 +36,7 @@ div.landing {
 	}
 }
 
-.arrow {
+.arrowdown {
   width: 3em;
   height: 3em;
 
@@ -62,11 +62,6 @@ div.landing {
   
 }
 
-@media (prefers-color-scheme: dark) {
-	.arrow svg {
-		filter: invert(1);
-	}
-}
 
 @-moz-keyframes jumping-arrow {
 	0%,
@@ -128,3 +123,4 @@ div.landing {
 		transform: translateY(-15px);
 	}
 }
+

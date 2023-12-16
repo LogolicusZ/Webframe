@@ -15,7 +15,7 @@
 		</div>
 		<div class="about-container">
 			<div class="About">
-				<div style="grid-area: 🟥;" id="Picture">
+				<div id="Picture">
 					<img class="picture" src="assets/pfp-aboutme.JPG" alt="About me" />
 				</div>
 				<div class="text-container">

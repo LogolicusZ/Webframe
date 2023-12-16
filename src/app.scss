@@ -8,7 +8,7 @@ $space-purple: #7b41f5; //Accent
 
 // Color Palette Dark mode 
 $universe-black: #181816; //Background
-$universe-beige: #F4F1EB; //Text
+$universe-beige: #FEFCED; //Text
 $lime-green: #C0FE1F; //Accent
 
 // Font Family
@@ -36,7 +36,7 @@ main {
 	main {
 		font-family: 'General Sans', sans-serif;
 		margin: 0;
-		color: #F4F1EB;
+		color: #FEFCED;
 		background-color: #181816;
 		margin-bottom: 0px;
 		scroll-behavior: smooth;
@@ -80,7 +80,7 @@ main {
 
 @media (prefers-color-scheme: dark) {
 	.nav {
-		border-bottom-color: rgba(254, 252, 237, 0.9);
+		border-bottom-color: rgba(254, 252, 237, 0.9);;
 		background: rgba(24, 24, 22, 0.9);
 	}
 }
@@ -94,10 +94,14 @@ main {
 	cursor: pointer;
 	transition: 0.5s ease;
 	user-select: none;
-	color: #F4F1EB;
+	color: #181816;
 }
 
-
+@media (prefers-color-scheme: dark) {
+	.about {
+		color: #FEFCED;
+	}
+}
 
 .about:hover {
 	color: #7b41f5;
@@ -185,9 +189,10 @@ main {
 .footer {
 	display: flex;
 	width: 98%;
-	margin-bottom: 0.1em;
+	margin-left: 1%;
 	justify-content: center;
 	align-items: center;
+	
 }
 
 .rights {
@@ -207,6 +212,12 @@ main {
 	margin-left: auto;
 }
 
+.footer.footer-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
 
 .arrow {
 	height: 30px;
@@ -256,6 +267,7 @@ main {
 	width: 8em;
 	transition-duration: .3s;
 	background: #7b41f5;
+	box-shadow:rgb(123, 65, 245) 0px 0px 20px 0px;
 }
 
 .Btn:hover .arrow-up {
@@ -284,7 +296,7 @@ main {
 
 	}
 	.Btn:hover {
-
+		box-shadow:rgb(192, 254, 31) 0px 0px 20px 0px;
 		background: #C0FE1F;
 	}
 
@@ -293,7 +305,7 @@ main {
 		filter: invert(1);
 	}
 	.Btn {
-		background: $space-beige;
+		background: #FEFCED;
 	}
 	
 }
@@ -318,7 +330,7 @@ main {
 }
 
 *::-webkit-scrollbar-thumb {
-	background-color: hwb(55 76% 20%);
+	background-color: #7b41f5;
 	border-radius: 5px;
 }
 
@@ -329,4 +341,36 @@ main {
 
 *::-webkit-scrollbar-track-piece {
 	background-color: #fefced;
+}
+
+@media (prefers-color-scheme: dark) {
+	* {
+		scrollbar-width: thin;
+		scrollbar-color: #fefced;
+		/* Set the thumb and track colors */
+		background-clip: padding-box;
+		/* Remove the background */
+	}
+	
+	// Webkit & Blink
+	*::-webkit-scrollbar {
+		width: 6px;
+		background-color: #181816;;
+		background-clip: padding-box;
+		/* Remove the background */
+	}
+	
+	*::-webkit-scrollbar-thumb {
+		background-color: #C0FE1F;
+		border-radius: 5px;
+	}
+	
+	*::-webkit-scrollbar-track {
+		background-color: #181816;;
+		/* Set a fallback color */
+	}
+	
+	*::-webkit-scrollbar-track-piece {
+		background-color: #181816;;
+	}
 }
