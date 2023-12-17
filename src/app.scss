@@ -16,6 +16,8 @@ $font-family: 'General Sans', sans-serif;
 
 /* general style */
 
+
+   
 html,
 body,
 main {
@@ -27,6 +29,7 @@ main {
 	scroll-behavior: smooth;
 	margin-left: auto;
 	margin-right: auto;
+	min-height: 100%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -128,6 +131,7 @@ main {
 	background-color: $space-purple;
 	font-size: 30px;
 	border-color: transparent;
+	border: 0px solid transparent;
 	border-radius: 30px;
 	color: #f4f1eb;
 	width: 164px;
@@ -137,6 +141,7 @@ main {
 	transition: 0.2s ease;
 	user-select: none;
 	padding: 5px 0 5px 0;
+	outline: none;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -148,6 +153,16 @@ main {
 
 .gallery:hover {
 	opacity: 0.9;
+	box-shadow:rgb(123, 65, 245) 0px 0px 20px 0px;
+	transition-duration: .3s;
+	outline: none;
+}
+
+@media (prefers-color-scheme: dark) {
+	.gallery:hover {
+		box-shadow:rgb(192, 254, 31) 0px 0px 20px 0px;
+		outline: none;
+	}
 }
 
 .gallery:active {
@@ -189,7 +204,6 @@ main {
 .footer {
 	display: flex;
 	width: 98%;
-	margin-left: 1%;
 	justify-content: center;
 	align-items: center;
 	
@@ -212,7 +226,7 @@ main {
 	margin-left: auto;
 }
 
-.footer.footer-container {
+.Footer-container {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -297,7 +311,7 @@ main {
 	}
 	.Btn:hover {
 		box-shadow:rgb(192, 254, 31) 0px 0px 20px 0px;
-		background: #C0FE1F;
+		background-color: #C0FE1F;
 	}
 
 	.arrow-up {
