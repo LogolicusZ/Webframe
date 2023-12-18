@@ -26,3 +26,28 @@
         height: 1.8em;
     }
 }
+
+@media (max-width: 600px) {
+    .Gallery img {
+        margin-bottom: 0;
+        height: 30em;
+        width: 22em;
+    }
+    p {
+        font-size: 80px;
+        margin-left: -0.2em;
+        margin-right: -0.2em;
+    }
+
+    #addon2 img {
+        width: 2em;
+        height: 2em;
+        margin-right: 0em;
+    }
+
+    #addon1 img {
+        width: 2em;
+        height: 2em;
+        margin-left: 0;
+    }
+}

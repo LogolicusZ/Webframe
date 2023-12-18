@@ -7,11 +7,13 @@
     #addon2 img {
         width: 2em;
         height: 2em;
+         margin-right: 1em;
     }
 
     #addon1 img {
         width: 2em;
         height: 2em;
+        margin-left: 1em;
     }
 
     .About {
@@ -39,6 +41,8 @@
 @media (max-width: 600px) {
     .title1 h1 {
         font-size: 90px;
+        margin-left: -0.2em;
+        margin-right: -0.2em;
     }
 
     #addon2 img {
@@ -57,18 +61,22 @@
 
     }
 
+    .picture {
+        width: 353px;
+        height: 470px;
+    }
     .who {
-        font-size: 60px;
+        font-size: 55px;
 
     }
     
     .text-1 {
-        font-size: 20px;
+        font-size: 18px;
 
     }
     
     .text-2 {
-        font-size: 20px;
+        font-size: 18px;
 
     }
 }
