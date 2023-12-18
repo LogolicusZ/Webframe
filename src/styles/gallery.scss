@@ -104,7 +104,9 @@
 .img5,
 .img6,
 .img7,
-.img8 {
+.img8,
+.img9,
+.img10 {
     user-select: none;
     transition: transform 0.2s ease-in-out, border-radius 0.2s ease-in-out;
 }
@@ -116,7 +118,9 @@
 .img5:hover,
 .img6:hover,
 .img7:hover,
-.img8:hover {
+.img8:hover,
+.img9:hover,
+.img10:hover {
     transform: scale(1.05);
     border-radius: 16px;
 }

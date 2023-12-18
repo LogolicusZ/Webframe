@@ -29,7 +29,7 @@
 <div class="nav-container">
     <div class="nav">
         <div class="nav-logo">
-            <a  class="logo-link" href="/">
+            <a class="logo-link"  href="/">
                 <img class="logo" src="assets/logo1.svg" alt="LogolicusZ Logo" />
 				<img class="logodark" src="assets/logodark.svg" alt="LogolicusZ Logo" />
             </a>
