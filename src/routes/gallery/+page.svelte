@@ -14,7 +14,7 @@
 					<img src="/icons/klammer1dark.svg" alt="circle" class="dark1" />
 				</div>
 			</div>
-			<div class="Gallery-contaienr">
+			<div class="Gallery-container">
 				<div class="Gallery">
 					<img class="img1 img" src="/assets/img/picture1.png" alt="1" />
 

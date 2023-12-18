@@ -70,6 +70,7 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+
 }
 
 .Gallery {
@@ -77,13 +78,12 @@
     justify-content: center;
     height: auto;
     font-weight: 200;
-    gap: 3em;
+    gap: 2em;
     align-items: center;
     width: 70%;
-    margin-left: 15%;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 0 0 48%;
+
 }
 
 
