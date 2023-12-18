@@ -20,3 +20,26 @@
         }
     }
 }
+
+@media (max-width: 600px) {
+    .hey {
+        font-size: 30px;
+    }
+
+    .name {
+        font-size: 85px;
+        letter-spacing: -7px;
+        margin-top: 10px;
+    }
+
+    .arrow {
+        width: 3em;
+        height: 3em;
+
+        svg {
+            width: 3em;
+            height: 3em;
+        
+        }
+    }
+}
