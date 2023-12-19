@@ -16,21 +16,21 @@
 			</div>
 			<div class="Gallery-container">
 				<div class="Gallery">
-					<img class="img1 img" src="/assets/img/Picture1.png" alt="1" />
+					<img class="img1 img" src="/assets/img/picture1.png" alt="1" />
 
-					<img class="img2" src="/assets/img/Picture2.png" alt="2" />
+					<img class="img2" src="/assets/img/picture2.png" alt="2" />
 
-					<img class="img3" src="/assets/img/Picture3.png" alt="3" />
+					<img class="img3" src="/assets/img/picture3.png" alt="3" />
 
 					<img class="img4" src="/assets/img/Picture4.JPG" alt="4" />
 
 					<img class="img5" src="/assets/img/Picture5.JPG" alt="5" />
 
-					<img class="img6" src="/assets/img/Picture6.JPG" alt="6" />
+					<img class="img6" src="/assets/img/picture6.jpg" alt="6" />
 
-					<img class="img7" src="/assets/img/Picture7.JPG" alt="7" />
+					<img class="img7" src="/assets/img/picture7.jpg" alt="7" />
 
-					<img class="img8" src="/assets/img/Picture8.JPG" alt="8" />
+					<img class="img8" src="/assets/img/picture8.jpg" alt="8" />
 
 					<img class="img9" src="/assets/img/Picture9.JPG" alt="9" />
 
