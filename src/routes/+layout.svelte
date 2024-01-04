@@ -55,7 +55,7 @@
 	<div class="footer">
 		<p class="rights">&copy; LogolicusZ 2023-2024, All rights reserved.</p>
 		<div class="button-container">
-			<a on:click={() => scrollToTop()} role="button" href="#top">	
+			<a on:click={() => scrollToTop()} role="button">	
 				<button class="Btn">
 	
 					<div class="arrow-up"><img src="../icons/arrowup.svg" class="arrow" alt="arrow-up" /></div>
