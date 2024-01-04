@@ -16,7 +16,13 @@ const config = {
 		assets: 'build',
 		fallback: '404.html',
 		precompress: false,
-		strict: true
+		strict: true,
+		prerender: {
+			handleMissingId: (href, page) => {
+			  // Ignore errors for '/#top' on any page
+			  return href === '#top';
+			},
+		},
 	
 	}),
 	paths: {
