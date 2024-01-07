@@ -16,7 +16,7 @@ jobs:
     - name: Set up Node.js
       uses: actions/setup-node@v2
       with:
-        node-version: '14' # Set this to the node version you use
+        node-version: '21'
 
     - name: Install dependencies
       run: yarn install
@@ -29,7 +29,7 @@ jobs:
       with:
         host: ${{ secrets.SSH_HOST }}
         username: ${{ secrets.SSH_USERNAME }}
-        password: ${{ secrets.SSH_PASSWORD }}
+        key: ${{ secrets.SSH_PRIVATE_KEY }}
         port: ${{ secrets.SSH_PORT }}
         source: "build/"
         target: ${{ secrets.SSH_TARGET_DIRECTORY }}
