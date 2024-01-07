@@ -1,0 +1,35 @@
+name: Deploy on Tag
+
+on:
+  push:
+    tags:
+      - '*'
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14' # Set this to the node version you use
+
+    - name: Install dependencies
+      run: yarn install
+
+    - name: Build project
+      run: yarn run build
+
+    - name: Upload to SSH host
+      uses: appleboy/scp-action@master
+      with:
+        host: ${{ secrets.SSH_HOST }}
+        username: ${{ secrets.SSH_USERNAME }}
+        password: ${{ secrets.SSH_PASSWORD }}
+        port: ${{ secrets.SSH_PORT }}
+        source: "build/"
+        target: ${{ secrets.SSH_TARGET_DIRECTORY }}
