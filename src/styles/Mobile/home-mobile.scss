@@ -23,7 +23,7 @@
 
 @media (max-width: 600px) {
     .hey {
-        font-size: 30px;
+        font-size: 27px;
     }
 
     .name {
@@ -33,13 +33,17 @@
     }
 
     .arrow {
-        width: 3em;
-        height: 3em;
+        width: 2.5em;
+        height: 2.5em;
 
         svg {
-            width: 3em;
-            height: 3em;
+            width: 2.5em;
+            height: 2.5em;
         
         }
+    }
+
+    div.landing {
+        height: 70vh;
     }
 }

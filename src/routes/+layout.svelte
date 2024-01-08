@@ -17,6 +17,7 @@
 	function scrollToTop() {
 		// goto('/');
 		smoothScrollTo('section-1');
+		smoothScrollTo('section-5');
 	}
 
 	function handleKeydown(event: KeyboardEvent) {
