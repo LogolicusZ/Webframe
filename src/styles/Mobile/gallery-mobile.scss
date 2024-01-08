@@ -25,6 +25,19 @@
         width: 1.8em;
         height: 1.8em;
     }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7,
+    .img8,
+    .img9,
+    .img10 {
+        pointer-events: none;
+    }
 }
 
 @media (max-width: 600px) {
@@ -51,5 +64,16 @@
         margin-left: 0;
     }
 
-   
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7,
+    .img8,
+    .img9,
+    .img10 {
+        pointer-events: none;
+    }
 }

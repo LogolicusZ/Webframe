@@ -5,7 +5,7 @@
     }
 
     .rights {
-        font-size:0.9em;
+        font-size: 0.9em;
     }
 
     .nav {
@@ -16,6 +16,7 @@
         width: 70px;
         height: 70px;
     }
+
     .logodark {
         width: 70px;
         height: 70px;
@@ -24,17 +25,23 @@
     .gallery {
         font-size: 30px;
         width: 154px;
+        pointer-events: none;
     }
-    
+
 
     main {
         max-width: 95%;
     }
 
+    .footer {
+        width: 90%;
+    }
+
+    .Btn {
+        pointer-events: none;
+    }
 
 }
 
 
-@media (max-width: 850px) {
-
-}
+@media (max-width: 850px) {}
