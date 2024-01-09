@@ -60,6 +60,7 @@ main {
 	position: sticky;
 	top: 0;
 	backdrop-filter: blur(4px);
+	-webkit-backdrop-filter: blur(4px);
 	z-index: 100;
 }
 
