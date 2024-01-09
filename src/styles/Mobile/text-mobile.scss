@@ -11,3 +11,10 @@
         letter-spacing: -2.4px;
     }
 }
+
+@media (max-width: 500px) {
+    .text {
+        font-size: 29px;
+        letter-spacing: -2.3px;
+    }
+}

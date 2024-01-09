@@ -40,7 +40,7 @@
     }
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .Gallery img {
         margin-bottom: 0;
         height: 30em;
@@ -61,6 +61,45 @@
     #addon1 img {
         width: 2em;
         height: 2em;
+        margin-left: 0;
+    }
+
+    .img1,
+    .img2,
+    .img3,
+    .img4,
+    .img5,
+    .img6,
+    .img7,
+    .img8,
+    .img9,
+    .img10 {
+        pointer-events: none;
+    }
+}
+
+
+@media (max-width: 380px) {
+    .Gallery img {
+        margin-bottom: 0;
+        height: 27em;
+        width: 22em;
+    }
+    p {
+        font-size: 75px;
+        margin-left: -0.3em;
+        margin-right: -0.3em;
+    }
+
+    #addon2 img {
+        width: 1.8em;
+        height: 1.8em;
+        margin-right: 0em;
+    }
+
+    #addon1 img {
+        width: 1.8em;
+        height: 1.8em;
         margin-left: 0;
     }
 

@@ -42,6 +42,64 @@
     }
 
 }
+@media (max-width: 600px) {
+    main {
+        max-width: 95%;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .about {
+        display: none;
+
+    }
+
+    .rights {
+        font-size: 0.8em;
+    }
+
+    .nav {
+        width: 95%;
+    }
+
+    .logo {
+        width: 70px;
+        height: 70px;
+    }
+
+    .logodark {
+        width: 70px;
+        height: 70px;
+    }
+
+    .gallery {
+        font-size: 30px;
+        width: 154px;
+        pointer-events: none;
+    }
 
 
-@media (max-width: 850px) {}
+    main {
+        max-width: 90%;
+    }
+
+    .footer {
+        width: 90%;
+    }
+
+    .Btn {
+        pointer-events: none;
+        height: 40px;
+        width: 40px;
+    }
+
+    .arrow {
+        height: 25px;
+        width: 25px;
+    }
+
+    .Footer-container {
+        padding-bottom: 1em;
+    }
+}
