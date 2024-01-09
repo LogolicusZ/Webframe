@@ -3,6 +3,7 @@
 	import Text from './Text.svelte';
 	import About from './About.svelte';
 	import Designs from './Designs.svelte';
+	import Projects from './Projects.svelte';
 </script>
 
 <div class="container">
@@ -10,6 +11,7 @@
 	<Text />
 	<About />
 	<Designs />
+	<Projects />
 </div>
 
 <style lang="scss">
