@@ -57,5 +57,5 @@
 <style lang="scss">
 	@import '../app.scss';
 	@import '../styles/designs.scss';
-	@import '../styles/Mobile/about-mobile.scss';
+	@import '../styles/Mobile/designs-mobile.scss';
 </style>

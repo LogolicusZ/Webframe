@@ -22,5 +22,5 @@
 <style lang="scss">
 	@import '../app.scss';
 	@import '../styles/projects.scss';
-	@import '../styles/Mobile/about-mobile.scss';
+	@import '../styles/Mobile/projects-mobile.scss';
 </style>
