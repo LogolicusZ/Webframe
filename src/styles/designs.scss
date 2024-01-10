@@ -1,5 +1,5 @@
 #section-6 {
-    height: 100vh;
+    height: auto;
     margin-top: 30px;
     margin-bottom: 30px;
     scroll-snap-align: start;
@@ -7,14 +7,7 @@
 
 }
 
-.design-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    margin-bottom: 2em;
-    flex-direction: row;
-}
+
 
 .About {
     display: flex;
@@ -87,108 +80,151 @@
     }
 }
 
-
-
-.cardcontainer {
-    margin-top: 100px;
-    height: 100%;
+.container {
+    color: #FEFCED;
+    position: relative;
+    font-family: sans-serif;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2em;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    width: 100%;
 }
 
-.card {
-    position: relative;
+
+.container .box {
+    width: 11.875em;
+    height: 15.875em;
+    padding: 1rem;
+    background-color: #282622;
+    border: 1px solid #605C54;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+    border-radius: 0.7rem;
+    transition: all ease 0.3s;
+}
+
+.container .box {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    cursor: pointer;
-    width: 22em;
-    max-width: 80%;
-    padding: 2em 0;
-    background: #FEFCED;
-    box-shadow: 0 0 6px 0 rgba(#202024, .12);
-    transition: all .35s ease;
+    justify-content: space-between;
+    top: 0;
+}
 
-    &::before,
-    &::after {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        background: #000;
-        height: 4px;
+.container .box .logo,
+.dashinit,
+.old23,
+.old22 {
+    height: 8em;
+    width: 8em;
+    user-select: none;
+    position: absolute;
+    top: 10;
+}
+
+.container .box .logodark,
+.dashinitdark,
+.old23dark,
+.old22dark {
+    height: 8em;
+    width: 8em;
+    visibility: hidden;
+    user-select: none;
+    position: relative;
+    top: 0;
+}
+
+.dashinit-link {
+	text-decoration: none;
+    color: #FEFCED;
+}
+.container .box div strong {
+    display: block;
+    margin-bottom: 0.5rem;
+
+
+
+}
+
+.container .box div p {
+    margin: 0;
+    font-size: 0.9em;
+    font-weight: 300;
+    letter-spacing: 0.1em;
+
+}
+
+.container .box div span {
+    font-size: 0.7rem;
+    font-weight: 300;
+
+}
+
+
+.container .box div span:nth-child(3) {
+    font-weight: 500;
+    margin-right: 0.2rem;
+
+}
+
+.container .box:hover {
+    box-shadow: 0px 0px 20px 1px #C0FE1F;
+    border: 1px solid #605C54;
+}
+
+@media (prefers-color-scheme: light) {
+
+    .container .box .logo,
+    .dashinit,
+    .old23,
+    .old22 {
+        visibility: 1;
+    }
+}
+
+
+
+@media (prefers-color-scheme: dark) {
+
+    .container .box .logodark,
+    .dashinitdark,
+    .old23dark,
+    .old22dark {
+        visibility: visible;
+        display: inline;
     }
 
-    &::before {
-        width: 0;
-        opacity: 0;
-        transition: opacity 0 ease, width 0 ease;
-        transition-delay: .5s;
+    .container .box .logo,
+    .dashinit,
+    .old23,
+    .old22 {
+        visibility: hidden;
+        display: none;
+    }
+}
+
+
+@media (prefers-color-scheme: light) {
+    .container .box:hover {
+        box-shadow: 0px 0px 20px 1px #7b41f5;
+        border: 1px solid #C5C4B9;
+    }
+    .container .box {
+        background-color: #ECEADC;
+        border: 1px solid #C5C4B9;
     }
 
-    &::after {
-        width: 100%;
-        background: white;
-        transition: width .5s ease;
+    .container {
+        color: #181816;
+
     }
 
-    .content {
-        width: 18em;
-        max-width: 80%;
-    }
-
-    .logo {
-        margin: 0 0 1em;
-        width: 10.625em;
-        transition: all .35s ease;
-    }
-
-    h6 {
-        color: #999;
-        font-weight: 600;
-        text-transform: uppercase;
-        margin: 0;
-        letter-spacing: 2px;
-    }
-
-    .hover_content {
-        overflow: hidden;
-        max-height: 0;
-        transform: translateY(1em);
-        transition: all .55s ease;
-
-        p {
-            margin: 1.5em 0 0;
-            color: #6E6E70;
-            line-height: 1.4em;
-        }
-    }
-
-    &:hover {
-        width: 24em;
-        box-shadow: 0 10px 20px 0 rgba(#202024, .12);
-
-        &::before {
-            width: 100%;
-            opacity: 1;
-            transition: opacity .5s ease, width .5s ease;
-            transition-delay: 0;
-        }
-
-        &::after {
-            width: 0;
-            opacity: 0;
-            transition: width 0 ease;
-        }
-
-        .logo {
-            margin-bottom: .5em;
-        }
-
-        .hover_content {
-            max-height: 10em;
-            transform: none;
-        }
+    .dashinit-link {
+        color: #181816;
     }
 }
