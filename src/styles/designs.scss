@@ -1,25 +1,12 @@
 #section-6 {
-    height: auto;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    height: 85vh;
+    margin-top: 8em;
     scroll-snap-align: start;
-
-
+    width: 100%;
+    margin-bottom: 1em;
 }
 
 
-
-.About {
-    display: flex;
-    font-weight: 200;
-    margin-top: 50px;
-    height: auto;
-    gap: 3em;
-    align-items: center;
-    justify-content: center;
-    width: 75%;
-
-}
 
 .Title {
     display: flex;
@@ -116,7 +103,7 @@
     top: 0;
 }
 
-.container .box .logo,
+.container .box .logo3,
 .dashinit,
 .old23,
 .old22 {
@@ -140,9 +127,10 @@
 }
 
 .dashinit-link {
-	text-decoration: none;
+    text-decoration: none;
     color: #FEFCED;
 }
+
 .container .box div strong {
     display: block;
     margin-bottom: 0.5rem;
@@ -179,7 +167,7 @@
 
 @media (prefers-color-scheme: light) {
 
-    .container .box .logo,
+    .container .box .logo3,
     .dashinit,
     .old23,
     .old22 {
@@ -199,7 +187,7 @@
         display: inline;
     }
 
-    .container .box .logo,
+    .container .box .logo3,
     .dashinit,
     .old23,
     .old22 {
@@ -214,6 +202,7 @@
         box-shadow: 0px 0px 20px 1px #7b41f5;
         border: 1px solid #C5C4B9;
     }
+
     .container .box {
         background-color: #ECEADC;
         border: 1px solid #C5C4B9;

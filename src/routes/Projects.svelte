@@ -13,8 +13,44 @@
 				<img src="/icons/cleanstar.svg" alt="circledark" class="dark1"/>
 			</div>
 		</div>
-		<div class="design-container">
-
+		
+		<div class="card-container">
+		<a class="Old-Portfolio-link"  href="https://logolicusz.github.io/Website_Brutalism/">
+			<div class="card">
+				<div class="tools">
+				<div class="circle">
+					<span class="red box"></span>
+				</div>
+				<div class="circle">
+					<span class="yellow box"></span>
+				</div>
+				<div class="circle">
+					<span class="green box"></span>
+				</div>
+				</div>
+				<div class="card_content">
+					<img src="/assets/ScreenOld.png" class="image" />
+				</div>
+			</div>
+		</a>
+		<a class="Explore-link"  href="https://explorecraft.net">
+			<div class="card">
+				<div class="tools">
+				<div class="circle">
+					<span class="red box"></span>
+				</div>
+				<div class="circle">
+					<span class="yellow box"></span>
+				</div>
+				<div class="circle">
+					<span class="green box"></span>
+				</div>
+				</div>
+				<div class="card_content">
+					<img src="/assets/ScreenExplore.png" class="image" />
+				</div>
+			</div>
+		</a>
 		</div>
 </body>
 

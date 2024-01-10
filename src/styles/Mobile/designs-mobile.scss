@@ -1,5 +1,7 @@
 @media (max-width: 678px) {
-
+    #section-6 {
+        height: 170vh;
+    }
 
     .title1 h1 {
         font-size: 75px;
@@ -29,5 +31,28 @@
         margin-bottom: 1em;
         pointer-events: none;
 
+    }
+
+    .container .box {
+        width: 8.3125em;
+        height: 9.7125em;
+
+
+    }
+
+    .container .box .logodark,
+    .dashinitdark,
+    .old23dark,
+    .old22dark,
+    .dashinit,
+    .old23,
+    .old22 {
+        width: 5.6em;
+        height: 5.6em ;
+    }
+
+    .container .box .logo3 {
+        width: 5.6em;
+        height: 5.6em ;
     }
 }

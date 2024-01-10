@@ -7,25 +7,17 @@
 
 }
 
-.design-container {
+.card-container {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
-    margin-bottom: 2em;
+    margin-bottom: 8em;
+    margin-top: 5em;
+    gap: 1.5em;
 }
 
-.About {
-    display: flex;
-    font-weight: 200;
-    margin-top: 50px;
-    height: auto;
-    gap: 3em;
-    align-items: center;
-    justify-content: center;
-    width: 75%;
 
-}
 
 .Title {
     display: flex;
@@ -87,4 +79,76 @@
 }
 
 
+.card {
+    width: 35em;
+    height: 24.5em;
+    margin: 0;
+    background-color: rgba(40, 38, 34,);
+    border-radius: 8px;
+    z-index: 1;
+    transition: all ease 0.3s;
+    border: 1px solid #605C54;
+    -webkit-backdrop-filter: blur(20px);
+    backdrop-filter: blur(20px);
+   }
+   
+   .tools {
+    display: flex;
+    align-items: center;
+    padding: 9px;
+   }
+   
+   .circle {
+    padding: 0 4px;
+   }
+   
+   .box {
+    display: inline-block;
+    align-items: center;
+    width: 10px;
+    height: 10px;
+    padding: 1px;
+    border-radius: 50%;
+   }
+   
+   .red {
+    background-color: #ff605c;
+   }
+   
+   .yellow {
+    background-color: #ffbd44;
+   }
+   
+   .green {
+    background-color: #00ca4e;
+   }
 
+   .card:hover {
+    box-shadow: 0px 0px 20px 1px #C0FE1F;
+    border: 1px solid #605C54;
+    }
+   
+   .image  {
+        height: 22em;
+        width: 35em;
+        border-radius: 0px 0px 8px 8px; 
+   }
+
+
+   @media (prefers-color-scheme: light) {
+    .card:hover {
+        box-shadow: 0px 0px 20px 1px #7b41f5;
+        border: 1px solid #C5C4B9;
+        }
+        .card {
+
+            background-color: #ECEADC;
+           
+            border: 1px solid #C5C4B9;
+
+           }
+    .image {
+        border-radius: 0px 0px 8px 8px; 
+    }
+
+   }

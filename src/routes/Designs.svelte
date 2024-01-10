@@ -16,7 +16,7 @@
 		<div class="container">
 			<div class="box">
 				<img src="assets/logodark.svg" class="logodark" />
-				<img src="assets/logo1.svg" class="logo" />
+				<img src="assets/logo1.svg" class="logo3" />
 				<div>
 					<strong>PERSONAL LOGO</strong>
 					<span>CURRENT</span> <span>09/23</span>

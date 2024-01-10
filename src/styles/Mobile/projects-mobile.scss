@@ -1,6 +1,9 @@
 @media (max-width: 678px) {
-    .container  {
-        flex-direction: column;
+    #section-6 {
+        height: 100vh;
+    }
+    .card-container  {
+        flex-direction: column;  
         margin-bottom: 1em;
     }
 
@@ -21,4 +24,20 @@
         margin-left: 0;
     }
 
+
+    .card {
+        width: 21em;
+        height: 15.7em;
+        margin-bottom: 1em;
+        pointer-events: none;
+       }
+    
+    .image {
+        width: 21em;
+        height: 13.2em; 
+    }
+
 }
+
+
+
