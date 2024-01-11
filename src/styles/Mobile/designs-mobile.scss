@@ -1,6 +1,6 @@
 @media (max-width: 678px) {
     #section-6 {
-        height: 170vh;
+        height: 155vh;
     }
 
     .title1 h1 {
@@ -21,22 +21,20 @@
         margin-left: 0;
     }
 
-    .container .box.dashinit,
-    .dashinitdark {
-        pointer-events: all;
-    }
+ 
 
     .container {
         flex-direction: column;
         margin-bottom: 1em;
         pointer-events: none;
+        justify-content: space-around;
+
 
     }
 
     .container .box {
-        width: 8.3125em;
+        width: 16.625em;
         height: 9.7125em;
-
 
     }
 
@@ -56,3 +54,4 @@
         height: 5.6em ;
     }
 }
+
