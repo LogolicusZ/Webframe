@@ -1,15 +1,15 @@
 @import url('https://fonts.cdnfonts.com/css/general-sans?styles=135312,135307,135305,135306,135308,135309,135310,135311,135313,135314,135303,135304');
 
 // Color Palette Light mode 
-$space-beige: #FBFBFB; //Background
+$space-beige: #FFFEF7; //Background
 $space-black: #181816; //Text
-$space-purple: #7b41f5; //Accent
+$space-purple: #B8B8FF; //Accent
 
 
 // Color Palette Dark mode 
 $universe-black: #181816; //Background
-$universe-beige: #FBFBFB; //Text
-$lime-green: #C0FE1F; //Accent
+$universe-beige: #FFFEF7; //Text
+$jade-green: #8CB369; //Accent
 
 // Font Family
 $font-family: 'General Sans', sans-serif;
@@ -23,7 +23,7 @@ body,
 main {
 	font-family: 'General Sans', sans-serif;
 	margin: 0;
-	color: #181816;
+	color: $universe-black;
 	background-color: $space-beige;
 	margin-bottom: 0px;
 	scroll-behavior: smooth;
@@ -39,8 +39,8 @@ main {
 	main {
 		font-family: 'General Sans', sans-serif;
 		margin: 0;
-		color: #FEFCED;
-		background-color: #181816;
+		color: $space-beige;
+		background-color: $universe-black;
 		margin-bottom: 0px;
 		scroll-behavior: smooth;
 		margin-left: auto;
@@ -205,7 +205,7 @@ main {
 	width: 8em;
 	transition-duration: .3s;
 	background: #7b41f5;
-	box-shadow:rgb(123, 65, 245) 0px 0px 20px 0px;
+	border-width: 0%;
 }
 
 .Btn:hover .arrow-up {
@@ -234,8 +234,7 @@ main {
 
 	}
 	.Btn:hover {
-		box-shadow:rgb(192, 254, 31) 0px 0px 20px 0px;
-		background-color: #C0FE1F;
+		background-color: $jade-green;
 	}
 
 	.arrow-up {
@@ -299,7 +298,7 @@ main {
 	}
 	
 	*::-webkit-scrollbar-thumb {
-		background-color: #C0FE1F;
+		background-color: $jade-green;
 		border-radius: 5px;
 	}
 	
