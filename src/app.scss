@@ -1,14 +1,14 @@
 @import url('https://fonts.cdnfonts.com/css/general-sans?styles=135312,135307,135305,135306,135308,135309,135310,135311,135313,135314,135303,135304');
 
 // Color Palette Light mode 
-$space-beige: #FEFCED; //Background
+$space-beige: #FBFBFB; //Background
 $space-black: #181816; //Text
 $space-purple: #7b41f5; //Accent
 
 
 // Color Palette Dark mode 
 $universe-black: #181816; //Background
-$universe-beige: #FEFCED; //Text
+$universe-beige: #FBFBFB; //Text
 $lime-green: #C0FE1F; //Accent
 
 // Font Family
@@ -54,160 +54,74 @@ main {
 
 
 
-.nav-container {
-	display: flex;
-	justify-content: center;
-	position: sticky;
-	top: 0;
-	backdrop-filter: blur(4px);
-	-webkit-backdrop-filter: blur(4px);
-	z-index: 100;
+#navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    transition: all 0.3s ease;
 }
 
-
-
-.nav {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-	position: sticky;
-	width: 98%;
-	border-bottom: 1px;
-	border-bottom-color: #181816;
-	border-bottom-style: solid;
-	background: rgba(254, 252, 237, 0.9);
-
-	.nav-items {
-		margin-left: auto;
-	}
+.logo-container {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    overflow: hidden;
 }
 
-@media (prefers-color-scheme: dark) {
-	.nav {
-		border-bottom-color: rgba(254, 252, 237, 0.9);;
-		background: rgba(24, 24, 22, 0.9);
-	}
+.logo-container img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: transform 0.5s ease, opacity 0.5s ease;
 }
 
-.about {
-	background-color: transparent;
-	font-size: 30px;
-	border-color: transparent;
-	font-family: 'General Sans', sans-serif;
-	font-weight: 200;
-	cursor: pointer;
-	transition: 0.5s ease;
-	user-select: none;
-	color: #181816;
+#logo1 {
+    transform: translateY(0);
+    opacity: 1;
 }
 
-@media (prefers-color-scheme: dark) {
-	.about {
-		color: #FEFCED;
-	}
-}
-
-.about:hover {
-	color: #7b41f5;
-}
-
-@media (prefers-color-scheme: dark) {
-	.about:hover {
-		color: #C0FE1F;
-	}
-}
-
-.about:active {
-	transform: scale(0.9);
-	color: #7b41f5;
-}
-
-@media (prefers-color-scheme: dark) {
-	.about:active {
-		color: #C0FE1F;
-	}
-}
-
-.gallery {
-	background-color: $space-purple;
-	font-size: 30px;
-	border-color: transparent;
-	border: 0px solid transparent;
-	border-radius: 30px;
-	color: #f4f1eb;
-	width: 164px;
-	font-weight: 200;
-	font-family: 'General Sans', sans-serif;
-	cursor: pointer;
-	transition: 0.2s ease;
-	user-select: none;
-	padding: 5px 0 5px 0;
-	outline: none;
-}
-
-@media (prefers-color-scheme: dark) {
-	.gallery {
-		background-color: #C0FE1F;
-		color:#181816;
-	}
-}
-
-.gallery:hover {
-	opacity: 0.9;
-	box-shadow:rgb(123, 65, 245) 0px 0px 20px 0px;
-	transition-duration: .3s;
-	outline: none;
-}
-
-@media (prefers-color-scheme: dark) {
-	.gallery:hover {
-		box-shadow:rgb(192, 254, 31) 0px 0px 20px 0px;
-		outline: none;
-	}
-}
-
-.gallery:active {
-	opacity: 0.8;
-	transform: scale(0.96);
-}
-
-
-
-.logo {
-	width: 80px;
-	height: 80px;
-	user-select: none;
-	text-decoration: none;
-}
-
-.logo-link {
-	text-decoration: none;
-}
-
-@media (prefers-color-scheme: light) {
-	.logo {
-		visibility: 1;
-	}
-}
-
-
-.logodark {
-	width: 80px;
-	height: 80px;
-	user-select: none;
-	visibility: hidden;
+#logo2 {
+    transform: translateY(100%);
+    opacity: 0;
 
 }
 
-@media (prefers-color-scheme: dark) {
-	.logodark {
-		visibility: visible;
-		display: inline;
-	}
-	.logo {
-		visibility: hidden;
-		display: none;
-	}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 1rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    padding-top: 5rem;
+}
+
+.scrolled {
+    background-color:$universe-beige ;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.scrolled #logo1 {
+    transform: translateY(-100%);
+    opacity: 0;
+}
+
+.scrolled #logo2 {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .footer {
