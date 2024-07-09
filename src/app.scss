@@ -64,6 +64,8 @@ main {
     align-items: center;
     padding: 1rem 2rem;
     transition: all 0.3s ease;
+	z-index: 999;
+	user-select: none;
 }
 
 .logo-container {
