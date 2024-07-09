@@ -10,29 +10,39 @@
 			</div>
 			<div id="addon2">
 				<img src="/icons/star.svg" alt="circle" class="light1" />
-				<img src="/icons/stardark.svg" alt="circledark" class="dark1"/>
+				<img src="/icons/stardark.svg" alt="circledark" class="dark1" />
 			</div>
 		</div>
+
 		<div class="about-container">
 			<div class="About">
 				<div id="Picture">
 					<img class="picture" src="assets/pfp-aboutme.JPG" alt="About me" />
 				</div>
-				<div class="text-container">
-					<h2 class="who">Who am I?</h2>
-					<p class="text-1">I am an independent artist dabbling into the world of photography.</p>
-					<p class="text-2">
-						When I am not taking photos or painting, I enjoy studying frontend development and
-						designing.
-					</p>
+				<div class="container-text-links">
+					<div class="text-container">
+						<h2 class="who">About me</h2>
+						<p class="🇨🇭">🇨🇭 Based in switzerland</p>
+						<p class="⚙️">⚙️ Studying system engineering</p>
+						<p class="⌨️">⌨️ A keyboard enjoyer</p>
+						<p class="⭐️">⭐️ A BIG Star Wars nerd</p>
+						<p class="🖥️">🖥️ A freelance Web dev</p>
+						<p class="🎨">🎨 A artist / designer</p>
+					</div>
+					<div class="Socials-container">
+						<a class="logo-link"  href="https://instagram.com/logolicusz">
+							<img class="instagram" src="/icons/instagram.svg" alt="Instagram">
+						</a>
+						<a class="logo-link"  href="https://github.com/LogolicusZ">
+							<img class="github" src="/icons/github.svg" alt="github">
+						</a>
+						<a class="logo-link"  href="https://discord.com/invite/DC6RCWmgNd">
+							<img class="discord" src="/icons/discord.svg" alt="discord">
+						</a>
+					</div>
 				</div>
 			</div>
 		</div>
-		<!-- <div class="button-gallery-container">y
-			<a href="/gallery">
-				<button class="Gallery-About">Gallery</button>
-			</a>
-		</div> -->
 	</section>
 </body>
 

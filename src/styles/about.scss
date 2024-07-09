@@ -106,14 +106,9 @@
     text-align: left;
 }
 
-.text-1 {
-    font-size: 25px;
-    font-weight: 400;
-}
-
-.text-2 {
-    font-size: 25px;
-    font-weight: 400;
+.🎨, .🇨🇭, .⚙️, .⌨️, .⭐️, .🖥️  {
+   font-size: 25px;
+   margin-bottom: 0px;
 }
 
 .text-container {
@@ -121,4 +116,22 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
+    margin-bottom: 80px;
 }
+
+.icons-social-media {
+    align-items: center;
+    margin-top: 10px;
+    padding: 5px;
+    width: 32px;
+    cursor: pointer !important;
+    transition: 300ms all ease-in-out;
+    position: relative;
+    
+  }
+
+  .logo-link {
+    height: 50px;
+    width: 50px;
+    filter: invert(1);
+  }
