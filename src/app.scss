@@ -3,13 +3,13 @@
 // Color Palette Light mode 
 $space-beige: #FFFEF7; //Background
 $space-black: #181816; //Text
-$space-purple: #B8B8FF; //Accent
+$jade-green: #8CB369; //Accent
 
 
 // Color Palette Dark mode 
 $universe-black: #181816; //Background
 $universe-beige: #FFFEF7; //Text
-$jade-green: #8CB369; //Accent
+$space-purple: #B8B8FF; //Accent
 
 // Font Family
 $font-family: 'General Sans', sans-serif;
@@ -94,6 +94,16 @@ main {
 
 }
 
+@media (prefers-color-scheme: dark) {
+	#logo1 {
+		filter: invert(1);
+	}
+	
+	#logo2 {
+		filter: invert(1);
+	}
+}
+
 nav ul {
     list-style-type: none;
     display: flex;
@@ -112,6 +122,13 @@ main {
 .scrolled {
     background-color:$universe-beige ;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+@media (prefers-color-scheme: dark) {
+	.scrolled {
+		background-color:$space-black ;
+    	box-shadow: 0 2px 5px rgba(255, 254, 247, 0.1);
+	}
 }
 
 .scrolled #logo1 {
@@ -175,13 +192,13 @@ main {
 	overflow: hidden;
 	transition-duration: .3s;
 	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.199);
-	background: #181816;
+	background: $space-black;
 }
 
 .arrow-up {
 	width: 100%;
 	font-size: 2.2em;
-	color: #f4f1eb;
+	color: $space-beige;
 	transition-duration: .3s;
 	display: flex;
 	align-items: center;
@@ -194,7 +211,7 @@ main {
 	right: 0%;
 	width: 0%;
 	opacity: 0;
-	color: #f4f1eb;
+	color: $space-beige;
 	font-size: 1.4em;
 	font-weight: 500;
 	transition-duration: .3s;
@@ -204,7 +221,7 @@ main {
 .Btn:hover {
 	width: 8em;
 	transition-duration: .3s;
-	background: #7b41f5;
+	background: $jade-green;
 	border-width: 0%;
 }
 
@@ -230,11 +247,11 @@ main {
 
 @media (prefers-color-scheme: dark) {
 	.text-top {
-		color: #181816;
+		color: $space-black;
 
 	}
 	.Btn:hover {
-		background-color: $jade-green;
+		background-color:$space-purple;
 	}
 
 	.arrow-up {
@@ -242,7 +259,7 @@ main {
 		filter: invert(1);
 	}
 	.Btn {
-		background: #FEFCED;
+		background: $space-beige;
 	}
 	
 }
@@ -252,7 +269,7 @@ main {
 // Firefox
 * {
 	scrollbar-width: thin;
-	scrollbar-color: #fefced;
+	scrollbar-color: $space-beige;
 	/* Set the thumb and track colors */
 	background-clip: padding-box;
 	/* Remove the background */
@@ -261,29 +278,29 @@ main {
 // Webkit & Blink
 *::-webkit-scrollbar {
 	width: 6px;
-	background-color: #fefced;
+	background-color: $space-beige;
 	background-clip: padding-box;
 	/* Remove the background */
 }
 
 *::-webkit-scrollbar-thumb {
-	background-color: #7b41f5;
+	background-color: $jade-green;
 	border-radius: 5px;
 }
 
 *::-webkit-scrollbar-track {
-	background-color: #fefced;
+	background-color: $space-beige;
 	/* Set a fallback color */
 }
 
 *::-webkit-scrollbar-track-piece {
-	background-color: #fefced;
+	background-color: $space-beige;
 }
 
 @media (prefers-color-scheme: dark) {
 	* {
 		scrollbar-width: thin;
-		scrollbar-color: #fefced;
+		scrollbar-color: $space-beige;
 		/* Set the thumb and track colors */
 		background-clip: padding-box;
 		/* Remove the background */
@@ -292,22 +309,22 @@ main {
 	// Webkit & Blink
 	*::-webkit-scrollbar {
 		width: 6px;
-		background-color: #181816;;
+		background-color: $space-black;;
 		background-clip: padding-box;
 		/* Remove the background */
 	}
 	
 	*::-webkit-scrollbar-thumb {
-		background-color: $jade-green;
+		background-color: $space-purple;
 		border-radius: 5px;
 	}
 	
 	*::-webkit-scrollbar-track {
-		background-color: #181816;;
+		background-color: $space-black;;
 		/* Set a fallback color */
 	}
 	
 	*::-webkit-scrollbar-track-piece {
-		background-color: #181816;;
+		background-color: $space-black;;
 	}
 }
