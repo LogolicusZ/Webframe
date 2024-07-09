@@ -48,8 +48,10 @@
 
 <header id="navbar">
     <div class="logo-container">
+		<a class="logo-link"  href="/">
         <img id="logo1" src="/assets/heyo-main.svg" alt="Heyo Logo">
         <img id="logo2" src="/logolicuszborder.svg" alt="Logo">
+		</a>
     </div>
     <nav>
         <ul>
