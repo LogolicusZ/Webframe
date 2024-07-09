@@ -49,13 +49,13 @@
 <header id="navbar">
     <div class="logo-container">
         <img id="logo1" src="/assets/heyo-main.svg" alt="Heyo Logo">
-        <img id="logo2" src="/logolicusz.svg" alt="Logo">
+        <img id="logo2" src="/logolicuszborder.svg" alt="Logo">
     </div>
     <nav>
         <ul>
             <li><a href="/#section-3">About</a></li>
 			<li><a href="https://blog.logolicusz.com">Blog</a></li>
-            <li><a href="/gallery">Gallery</a></li>
+            <li class="Gallerybutton"><a href="/gallery">Gallery</a></li>
         </ul>
     </nav>
 </header>

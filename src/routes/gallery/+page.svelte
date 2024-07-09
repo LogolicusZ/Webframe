@@ -17,25 +17,25 @@
 				</div>
 				<div class="Gallery-container">
 					<div class="Gallery">
-						<img class="img1 img" src="/assets/img/picture1.png" alt="1" />
+						<img class="img1 img" src="/assets/img/pic1.png" alt="1" />
 
-						<img class="img2" src="/assets/img/picture2.png" alt="2" />
+						<img class="img2" src="/assets/img/pic2.png" alt="2" />
 
-						<img class="img3" src="/assets/img/picture3.png" alt="3" />
+						<img class="img3" src="/assets/img/pic3.png" alt="3" />
 
-						<img class="img4" src="/assets/img/Picture4.JPG" alt="4" />
+						<img class="img4" src="/assets/img/pic4.png" alt="4" />
 
-						<img class="img5" src="/assets/img/Picture5.JPG" alt="5" />
+						<img class="img5" src="/assets/img/pic5.png" alt="5" />
 
-						<img class="img6" src="/assets/img/picture6.jpg" alt="6" />
+						<img class="img6" src="/assets/img/pic6.png" alt="6" />
 
-						<img class="img7" src="/assets/img/picture7.jpg" alt="7" />
+						<img class="img7" src="/assets/img/pic7.png" alt="7" />
 
-						<img class="img8" src="/assets/img/picture8.jpg" alt="8" />
+						<img class="img8" src="/assets/img/pic8.png" alt="8" />
 
-						<img class="img9" src="/assets/img/Picture9.JPG" alt="9" />
+						<img class="img9" src="/assets/img/pic9.png" alt="9" />
 
-						<img class="img10" src="/assets/img/Picture10.JPG" alt="10" />
+						<img class="img10" src="/assets/img/pic10.png" alt="10" />
 					</div>
 				</div>
 			</section>

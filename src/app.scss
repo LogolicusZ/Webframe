@@ -69,7 +69,7 @@ main {
 .logo-container {
     position: relative;
     width: 100px;
-    height: 50px;
+    height: 70px;
     overflow: hidden;
 }
 
@@ -99,9 +99,7 @@ main {
 		filter: invert(1);
 	}
 	
-	#logo2 {
-		filter: invert(1);
-	}
+
 }
 
 nav ul {
@@ -112,8 +110,28 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: black;
+    color: $space-black;
+	font-size: 20px;
 }
+
+nav a:hover {
+    color: $jade-green;
+}
+
+@media (prefers-color-scheme: dark) {
+	nav a:hover {
+		color: $space-purple;
+	}
+}
+
+@media (prefers-color-scheme: dark) {
+	nav a {
+		color: $space-beige;
+	}
+}
+
+
+
 
 main {
     padding-top: 5rem;
