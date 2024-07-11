@@ -20,7 +20,8 @@
 			<div class="Text">
 				<div id="Picture">
 					<a href="/gallery" class="banner" data-tooltip="See more...">
-						<img src="/assets/img/pic0.png" id="banner" alt="Random picture from the gallery." />
+						<!-- svelte-ignore a11y-img-redundant-alt -->
+						<img src="/assets/img/pic0.png" id="banner" alt="Random picture from the gallery." class="img"/>
 					</a>
 				</div>
 				<div class="text-container">

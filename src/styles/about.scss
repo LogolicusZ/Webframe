@@ -98,16 +98,9 @@
 }
 
 
-.who {
-    font-size: 80px;
-    font-weight: 600;
-    margin-bottom: 0;
-    margin: 0;
-    text-align: left;
-}
 
 .🎨, .🇨🇭, .⚙️, .⌨️, .⭐️, .🖥️  {
-   font-size: 25px;
+   font-size: 35px;
    margin-bottom: 0px;
 }
 
@@ -116,7 +109,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    margin-bottom: 80px;
+    margin-bottom: 55px;
 }
 
 .icons-social-media {
@@ -133,5 +126,11 @@
   .logo-link {
     height: 50px;
     width: 50px;
-    filter: invert(1);
+    margin-right: 5px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .logo-link {
+        filter: invert(1);
+      }
   }

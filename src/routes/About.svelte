@@ -17,11 +17,10 @@
 		<div class="about-container">
 			<div class="About">
 				<div id="Picture">
-					<img class="picture" src="assets/pfp-aboutme.JPG" alt="About me" />
+					<img class="picture img" src="assets/pfp-aboutme.JPG" alt="About me" />
 				</div>
 				<div class="container-text-links">
 					<div class="text-container">
-						<h2 class="who">About me</h2>
 						<p class="🇨🇭">🇨🇭 Based in switzerland</p>
 						<p class="⚙️">⚙️ Studying system engineering</p>
 						<p class="⌨️">⌨️ A keyboard enjoyer</p>

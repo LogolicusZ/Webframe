@@ -2,7 +2,7 @@
 	<section id="section-1">
 		<div class="landing">
 			<div class="hey">
-				<p>Hey I'm</p>
+				<p>I am</p>
 			</div>
 
 			<div class="name">
